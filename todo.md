@@ -8,7 +8,7 @@
 - [x] Tratamento de estado vazio (código não encontrado)
 - [x] Busca em tempo real com debounce
 - [x] Suporte a busca parcial (prefixo)
-- [ ] Histórico de buscas recentes (opcional)
+- [x] Histórico de buscas recentes
 
 ## Branding e Configuração
 

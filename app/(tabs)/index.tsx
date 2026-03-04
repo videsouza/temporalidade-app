@@ -2,6 +2,7 @@ import { ScrollView, Text, View, TextInput, Pressable, FlatList, ActivityIndicat
 import { useState, useEffect, useMemo } from "react";
 import { ScreenContainer } from "@/components/screen-container";
 import { useColors } from "@/hooks/use-colors";
+import { useSearchHistory } from "@/hooks/use-search-history";
 import { cn } from "@/lib/utils";
 import data from "@/data.json";
 
@@ -18,6 +19,7 @@ interface SearchResult {
 
 export default function HomeScreen() {
   const colors = useColors();
+  const { history, isLoading: historyLoading, addToHistory, clearHistory, removeFromHistory } = useSearchHistory();
   const [searchQuery, setSearchQuery] = useState("");
   const [selectedCode, setSelectedCode] = useState<string | null>(null);
   const [isLoading, setIsLoading] = useState(false);
@@ -67,6 +69,14 @@ export default function HomeScreen() {
 
   const handleSearch = (text: string) => {
     setSearchQuery(text);
+  };
+
+  const handleSelectFromHistory = (code: string) => {
+    setSearchQuery(code);
+  };
+
+  const handleDeleteHistoryItem = (code: string) => {
+    removeFromHistory(code);
   };
 
   return (
@@ -180,6 +190,25 @@ export default function HomeScreen() {
                   )}
                 />
               </View>
+
+              {/* Add to history button */}
+              <Pressable
+                onPress={() => {
+                  if (selectedCode) {
+                    addToHistory(selectedCode);
+                  }
+                }}
+                style={({ pressed }) => [
+                  {
+                    backgroundColor: colors.primary,
+                    opacity: pressed ? 0.8 : 1,
+                    transform: [{ scale: pressed ? 0.97 : 1 }],
+                  },
+                ]}
+                className="px-6 py-3 rounded-lg"
+              >
+                <Text className="text-white font-semibold text-center">Salvar no Histórico</Text>
+              </Pressable>
             </View>
           )}
 
@@ -209,8 +238,62 @@ export default function HomeScreen() {
             </View>
           )}
 
+          {/* History Section */}
+          {!historyLoading && searchQuery.trim() === "" && history.length > 0 && (
+            <View className="gap-3">
+              <View className="flex-row items-center justify-between">
+                <Text className="text-sm font-semibold text-foreground">Buscas Recentes</Text>
+                <Pressable
+                  onPress={clearHistory}
+                  style={({ pressed }) => [
+                    {
+                      opacity: pressed ? 0.6 : 1,
+                    },
+                  ]}
+                >
+                  <Text className="text-xs text-muted font-medium">Limpar</Text>
+                </Pressable>
+              </View>
+              <FlatList
+                data={history}
+                keyExtractor={(item) => item.code}
+                scrollEnabled={false}
+                renderItem={({ item }) => (
+                  <Pressable
+                    onPress={() => handleSelectFromHistory(item.code)}
+                    style={({ pressed }) => [
+                      {
+                        backgroundColor: pressed ? colors.border : colors.surface,
+                        opacity: pressed ? 0.7 : 1,
+                      },
+                    ]}
+                    className="flex-row items-center justify-between p-3 rounded-lg border mb-2"
+                    accessibilityRole="button"
+                  >
+                    <View className="flex-row items-center gap-3 flex-1">
+                      <Text className="text-lg">🕐</Text>
+                      <Text className="text-base font-medium text-foreground">{item.code}</Text>
+                    </View>
+                    <Pressable
+                      onPress={() => handleDeleteHistoryItem(item.code)}
+                      style={({ pressed }) => [
+                        {
+                          opacity: pressed ? 0.6 : 1,
+                        },
+                      ]}
+                      accessibilityRole="button"
+                      accessibilityLabel={`Remover ${item.code} do histórico`}
+                    >
+                      <Text className="text-lg text-muted">✕</Text>
+                    </Pressable>
+                  </Pressable>
+                )}
+              />
+            </View>
+          )}
+
           {/* Empty State - Initial */}
-          {searchQuery.trim() === "" && (
+          {searchQuery.trim() === "" && history.length === 0 && !historyLoading && (
             <View className="items-center gap-4 py-12">
               <Text className="text-6xl">🔍</Text>
               <Text className="text-base text-muted text-center">
