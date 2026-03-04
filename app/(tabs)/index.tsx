@@ -17,6 +17,17 @@ interface SearchResult {
   TEMP: string | number;
 }
 
+const isSpecialNote = (temp: string | number): boolean => {
+  const tempStr = String(temp).toUpperCase();
+  return (
+    tempStr.includes("PERMANENTE") ||
+    tempStr.includes("USE:") ||
+    tempStr.includes("UTILIZAR") ||
+    tempStr.includes("APROVACAO") ||
+    tempStr.includes("TCE")
+  );
+};
+
 export default function HomeScreen() {
   const colors = useColors();
   const { history, isLoading: historyLoading, addToHistory, clearHistory, removeFromHistory } = useSearchHistory();
@@ -170,21 +181,21 @@ export default function HomeScreen() {
                       </View>
                       <View className="gap-2 mt-3">
                         <Text className="text-xs font-semibold text-muted uppercase">Temporalidade</Text>
-                        <View
-                          className="px-3 py-2 rounded-md"
+                      <View
+                        className="px-3 py-2 rounded-md"
+                        style={{
+                          backgroundColor: isSpecialNote(item.TEMP) ? colors.warning + "20" : colors.primary + "20",
+                        }}
+                      >
+                        <Text
+                          className="text-base font-bold"
                           style={{
-                            backgroundColor: colors.primary + "20",
+                            color: isSpecialNote(item.TEMP) ? colors.warning : colors.primary,
                           }}
                         >
-                          <Text
-                            className="text-base font-bold"
-                            style={{
-                              color: colors.primary,
-                            }}
-                          >
-                            {item.TEMP}
-                          </Text>
-                        </View>
+                          {item.TEMP}
+                        </Text>
+                      </View>
                       </View>
                     </View>
                   )}
