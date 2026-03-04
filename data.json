@@ -1,0 +1,1197 @@
+[
+  {
+    "COD": "1.0.01.00.13",
+    "TIPO": "Formulário",
+    "TEMP": "1"
+  },
+  {
+    "COD": "1.0.05.00.02",
+    "TIPO": "Decreto/Portaria/Resolução",
+    "TEMP": "1"
+  },
+  {
+    "COD": "1.0.05.00.03",
+    "TIPO": "Minuta",
+    "TEMP": "1"
+  },
+  {
+    "COD": "1.0.05.01.02",
+    "TIPO": "Portaria/Resolução/Orientação Normativa/Intrução/Ordem Interna/Estatuto/Regimento/Regulamento",
+    "TEMP": "1"
+  },
+  {
+    "COD": "1.0.06.02.02",
+    "TIPO": "Certificado",
+    "TEMP": "1"
+  },
+  {
+    "COD": "2.0.01.00.01",
+    "TIPO": "Dossiê",
+    "TEMP": "1"
+  },
+  {
+    "COD": "2.0.01.00.04",
+    "TIPO": "Relação",
+    "TEMP": "1"
+  },
+  {
+    "COD": "2.0.01.05.01",
+    "TIPO": "Memorando",
+    "TEMP": "2"
+  },
+  {
+    "COD": "2.0.01.05.02",
+    "TIPO": "Cartão/ Formulário",
+    "TEMP": "8"
+  },
+  {
+    "COD": "2.0.01.05.03",
+    "TIPO": "Lista",
+    "TEMP": "8"
+  },
+  {
+    "COD": "2.0.01.05.04",
+    "TIPO": "Justificativa",
+    "TEMP": "8"
+  },
+  {
+    "COD": "2.0.01.05.05",
+    "TIPO": "Registro",
+    "TEMP": "40"
+  },
+  {
+    "COD": "2.0.01.05.07",
+    "TIPO": "Memorando",
+    "TEMP": "2"
+  },
+  {
+    "COD": "2.0.01.05.08",
+    "TIPO": "Formulário",
+    "TEMP": "4"
+  },
+  {
+    "COD": "2.0.01.05.11",
+    "TIPO": "Relatório/Folha",
+    "TEMP": "10"
+  },
+  {
+    "COD": "2.0.01.05.18",
+    "TIPO": "Relatório",
+    "TEMP": "12"
+  },
+  {
+    "COD": "2.0.03.00.01",
+    "TIPO": "Formulário",
+    "TEMP": "Use: 2.0.04.01.03"
+  },
+  {
+    "COD": "2.0.03.00.03",
+    "TIPO": "Processo",
+    "TEMP": "Necessita aprovação do TCE -utilizar cód.: 20040201"
+  },
+  {
+    "COD": "2.0.04.01.01",
+    "TIPO": "Ficha Cadastral",
+    "TEMP": "Permanente "
+  },
+  {
+    "COD": "2.0.04.01.02",
+    "TIPO": "Ficha",
+    "TEMP": "5"
+  },
+  {
+    "COD": "2.0.04.01.03",
+    "TIPO": "Cautela",
+    "TEMP": "2"
+  },
+  {
+    "COD": "2.0.04.01.04",
+    "TIPO": "Processo",
+    "TEMP": "2"
+  },
+  {
+    "COD": "2.0.04.02.01",
+    "TIPO": "Formulário",
+    "TEMP": "5"
+  },
+  {
+    "COD": "2.0.04.02.02",
+    "TIPO": "Formulário",
+    "TEMP": "5"
+  },
+  {
+    "COD": "2.0.04.02.03",
+    "TIPO": "Formulário",
+    "TEMP": "Não especificado"
+  },
+  {
+    "COD": "2.0.04.02.04",
+    "TIPO": "Formulário",
+    "TEMP": "2"
+  },
+  {
+    "COD": "2.0.05.00.01",
+    "TIPO": "Ato Normativo",
+    "TEMP": "1"
+  },
+  {
+    "COD": "2.0.05.00.02",
+    "TIPO": "Cronograma",
+    "TEMP": "1"
+  },
+  {
+    "COD": "2.0.05.00.03",
+    "TIPO": "Covocação",
+    "TEMP": "1"
+  },
+  {
+    "COD": "2.0.05.00.04",
+    "TIPO": "Manual",
+    "TEMP": "Permanente "
+  },
+  {
+    "COD": "2.0.05.00.05",
+    "TIPO": "Tabela",
+    "TEMP": "Permanente "
+  },
+  {
+    "COD": "2.0.05.00.06",
+    "TIPO": "Listagem",
+    "TEMP": "1"
+  },
+  {
+    "COD": "2.0.05.00.06",
+    "TIPO": "Listagem",
+    "TEMP": "1"
+  },
+  {
+    "COD": "2.0.05.00.06",
+    "TIPO": "Listagem",
+    "TEMP": "1"
+  },
+  {
+    "COD": "2.0.05.00.06",
+    "TIPO": "Listagem",
+    "TEMP": "1"
+  },
+  {
+    "COD": "2.0.05.00.07",
+    "TIPO": "Relação",
+    "TEMP": "MICROFILMA E ELIMINA; 1 cópia para APM"
+  },
+  {
+    "COD": "2.0.05.00.08",
+    "TIPO": "Relação",
+    "TEMP": "Totalidade. Elaborada em 2 vias. 1ª via fica no órgão produtor/ gerador; 2ª via fica no AG"
+  },
+  {
+    "COD": "2.0.05.00.09",
+    "TIPO": "Relação",
+    "TEMP": "Permanente"
+  },
+  {
+    "COD": "2.0.05.00.14",
+    "TIPO": "Minuta",
+    "TEMP": "1"
+  },
+  {
+    "COD": "2.0.05.00.15",
+    "TIPO": "Processo",
+    "TEMP": "Permanente "
+  },
+  {
+    "COD": "2.0.05.00.16",
+    "TIPO": "Processo",
+    "TEMP": "Permanente "
+  },
+  {
+    "COD": "2.0.07.01.01",
+    "TIPO": "Dossiê",
+    "TEMP": "Permanente "
+  },
+  {
+    "COD": "2.0.07.01.06",
+    "TIPO": "Relatório",
+    "TEMP": "Permanente "
+  },
+  {
+    "COD": "2.0.09.00.01",
+    "TIPO": "Formulário",
+    "TEMP": "5"
+  },
+  {
+    "COD": "2.0.09.00.06",
+    "TIPO": "Formulário",
+    "TEMP": "5"
+  },
+  {
+    "COD": "2.0.09.00.07",
+    "TIPO": "Planilha",
+    "TEMP": "6"
+  },
+  {
+    "COD": "2.0.09.00.09",
+    "TIPO": "Processo",
+    "TEMP": "5"
+  },
+  {
+    "COD": "2.0.10.00.01",
+    "TIPO": "CIRCULAR",
+    "TEMP": "2"
+  },
+  {
+    "COD": "2.0.10.00.01",
+    "TIPO": "TELEGRAMA",
+    "TEMP": "2"
+  },
+  {
+    "COD": "2.0.10.00.01",
+    "TIPO": "COMUNICADO",
+    "TEMP": "1"
+  },
+  {
+    "COD": "2.0.10.00.01",
+    "TIPO": "FOLHA",
+    "TEMP": "4"
+  },
+  {
+    "COD": "2.0.10.00.01",
+    "TIPO": "MEMORANDO",
+    "TEMP": "9"
+  },
+  {
+    "COD": "2.0.10.00.01",
+    "TIPO": "Ofício",
+    "TEMP": "Permanente "
+  },
+  {
+    "COD": "2.0.10.00.02",
+    "TIPO": "Livro de Carga/ Formulário",
+    "TEMP": "1"
+  },
+  {
+    "COD": "2.0.10.00.04",
+    "TIPO": "Relatório",
+    "TEMP": "1"
+  },
+  {
+    "COD": "2.0.10.00.05",
+    "TIPO": "Relatório",
+    "TEMP": "2"
+  },
+  {
+    "COD": "2.0.10.00.06",
+    "TIPO": "Relatório",
+    "TEMP": "Permanente "
+  },
+  {
+    "COD": "2.0.10.00.09",
+    "TIPO": "Gráfico",
+    "TEMP": "Permanente "
+  },
+  {
+    "COD": "2.0.10.00.11",
+    "TIPO": "Requisição",
+    "TEMP": "1"
+  },
+  {
+    "COD": "2.0.10.00.12",
+    "TIPO": "Requisição",
+    "TEMP": "2"
+  },
+  {
+    "COD": "2.0.10.00.13",
+    "TIPO": "Requisição",
+    "TEMP": "1"
+  },
+  {
+    "COD": "2.0.10.00.14",
+    "TIPO": "Formulário",
+    "TEMP": "1"
+  },
+  {
+    "COD": "2.0.10.00.15",
+    "TIPO": "Formulário",
+    "TEMP": "4"
+  },
+  {
+    "COD": "2.0.10.00.16",
+    "TIPO": "Requisição",
+    "TEMP": "1"
+  },
+  {
+    "COD": "2.0.10.00.17",
+    "TIPO": "Requisição",
+    "TEMP": "1"
+  },
+  {
+    "COD": "2.0.10.00.18",
+    "TIPO": "Requisição",
+    "TEMP": "1"
+  },
+  {
+    "COD": "2.0.10.00.19",
+    "TIPO": "Requisição",
+    "TEMP": "1"
+  },
+  {
+    "COD": "2.0.10.00.20",
+    "TIPO": "Cartão",
+    "TEMP": "1"
+  },
+  {
+    "COD": "2.0.10.00.21",
+    "TIPO": "Planilha",
+    "TEMP": "1"
+  },
+  {
+    "COD": "2.0.10.00.22",
+    "TIPO": "Ata",
+    "TEMP": "Permanente "
+  },
+  {
+    "COD": "2.0.10.00.23",
+    "TIPO": "Textos",
+    "TEMP": "1"
+  },
+  {
+    "COD": "2.0.10.00.24",
+    "TIPO": "Leis/Decretos/Atos Normativos",
+    "TEMP": "1"
+  },
+  {
+    "COD": "3.0.03.00.01",
+    "TIPO": "Fichas",
+    "TEMP": "7"
+  },
+  {
+    "COD": "3.0.03.00.03",
+    "TIPO": "Avisos bancários",
+    "TEMP": "6"
+  },
+  {
+    "COD": "3.0.03.00.04",
+    "TIPO": "Lançamentos contábeis",
+    "TEMP": "1"
+  },
+  {
+    "COD": "3.0.03.00.05",
+    "TIPO": "Lançamentos contábeis",
+    "TEMP": "Permanente "
+  },
+  {
+    "COD": "3.0.03.00.07",
+    "TIPO": "Extratos",
+    "TEMP": "6"
+  },
+  {
+    "COD": "3.0.03.00.08",
+    "TIPO": "Extratos",
+    "TEMP": "6"
+  },
+  {
+    "COD": "3.0.03.00.10",
+    "TIPO": "Livro de Registro/ Formulário",
+    "TEMP": "6"
+  },
+  {
+    "COD": "3.0.03.00.11",
+    "TIPO": "Lançamentos contábeis",
+    "TEMP": "Permanente "
+  },
+  {
+    "COD": "3.0.03.00.12",
+    "TIPO": "Dossiê",
+    "TEMP": "22"
+  },
+  {
+    "COD": "3.0.03.00.14",
+    "TIPO": "Relatório",
+    "TEMP": "2"
+  },
+  {
+    "COD": "3.0.03.00.15",
+    "TIPO": "Relatório",
+    "TEMP": "7"
+  },
+  {
+    "COD": "3.0.05.00.24",
+    "TIPO": "Processo",
+    "TEMP": "Não especificado"
+  },
+  {
+    "COD": "5.3.01.00.01",
+    "TIPO": "Programa",
+    "TEMP": "Permanente "
+  },
+  {
+    "COD": "5.3.01.00.02",
+    "TIPO": "Formulário",
+    "TEMP": "Permanente "
+  },
+  {
+    "COD": "5.3.01.00.03",
+    "TIPO": "Minutas",
+    "TEMP": "1"
+  },
+  {
+    "COD": "5.3.01.00.04",
+    "TIPO": "Planos / Programas",
+    "TEMP": "Permanente"
+  },
+  {
+    "COD": "5.3.01.00.05",
+    "TIPO": "Plano",
+    "TEMP": "Permanente"
+  },
+  {
+    "COD": "5.3.01.00.06",
+    "TIPO": "Decreto",
+    "TEMP": "Permanente"
+  },
+  {
+    "COD": "5.3.01.00.07",
+    "TIPO": "Protocolo/ Convênio/ Contrato",
+    "TEMP": "Permanente"
+  },
+  {
+    "COD": "5.3.01.00.08",
+    "TIPO": "Livros de registros ou atas",
+    "TEMP": "Permanente"
+  },
+  {
+    "COD": "5.3.01.00.09",
+    "TIPO": "Relatórios",
+    "TEMP": "Permanente"
+  },
+  {
+    "COD": "5.3.01.00.10",
+    "TIPO": "Calendário",
+    "TEMP": "Permanente"
+  },
+  {
+    "COD": "5.3.01.00.11",
+    "TIPO": "Relatório",
+    "TEMP": "1"
+  },
+  {
+    "COD": "5.3.01.00.12",
+    "TIPO": "Relatório",
+    "TEMP": "Permanente"
+  },
+  {
+    "COD": "5.3.01.00.13",
+    "TIPO": "Relatório",
+    "TEMP": "Permanente"
+  },
+  {
+    "COD": "5.3.01.00.14",
+    "TIPO": "Relatório",
+    "TEMP": "Permanente"
+  },
+  {
+    "COD": "5.3.01.00.15",
+    "TIPO": "Relatório",
+    "TEMP": "Permanente"
+  },
+  {
+    "COD": "5.3.01.00.16",
+    "TIPO": "Lista",
+    "TEMP": "1"
+  },
+  {
+    "COD": "5.3.01.00.17",
+    "TIPO": "Lista",
+    "TEMP": "1"
+  },
+  {
+    "COD": "5.3.01.00.18",
+    "TIPO": "Relatório",
+    "TEMP": "4"
+  },
+  {
+    "COD": "5.3.01.00.19",
+    "TIPO": "Mapa",
+    "TEMP": "Permanente"
+  },
+  {
+    "COD": "5.3.01.00.20",
+    "TIPO": "Lista",
+    "TEMP": "Permanente"
+  },
+  {
+    "COD": "5.3.01.00.21",
+    "TIPO": "Relatório",
+    "TEMP": "Permanente"
+  },
+  {
+    "COD": "5.3.01.00.22",
+    "TIPO": "Livro/ Ata",
+    "TEMP": "Permanente"
+  },
+  {
+    "COD": "5.3.01.00.23",
+    "TIPO": "Relatório",
+    "TEMP": "Permanente"
+  },
+  {
+    "COD": "5.3.01.00.24",
+    "TIPO": "Relatório",
+    "TEMP": "Permanente"
+  },
+  {
+    "COD": "5.3.02.00.01",
+    "TIPO": "Projeto",
+    "TEMP": "Permanente"
+  },
+  {
+    "COD": "5.3.02.00.02",
+    "TIPO": "Processo",
+    "TEMP": "Permanente"
+  },
+  {
+    "COD": "5.3.02.01.01",
+    "TIPO": "Ficha",
+    "TEMP": "Permanente"
+  },
+  {
+    "COD": "5.3.02.01.02",
+    "TIPO": "Atestado",
+    "TEMP": "2"
+  },
+  {
+    "COD": "5.3.02.01.03",
+    "TIPO": "Dossiê",
+    "TEMP": "Permanente"
+  },
+  {
+    "COD": "5.3.02.01.04",
+    "TIPO": "Dossiê",
+    "TEMP": "1"
+  },
+  {
+    "COD": "5.3.02.01.05",
+    "TIPO": "Certificado/ declaração",
+    "TEMP": "1"
+  },
+  {
+    "COD": "5.3.02.01.06",
+    "TIPO": "Livro",
+    "TEMP": "Permanente"
+  },
+  {
+    "COD": "5.3.02.01.09",
+    "TIPO": "Livro",
+    "TEMP": "Permanente"
+  },
+  {
+    "COD": "5.3.02.01.10",
+    "TIPO": "Ficha",
+    "TEMP": "1"
+  },
+  {
+    "COD": "5.3.02.01.11",
+    "TIPO": "Livro/ Ata",
+    "TEMP": "Permanente"
+  },
+  {
+    "COD": "5.3.02.01.12",
+    "TIPO": "Diário",
+    "TEMP": "Diário de Classe"
+  },
+  {
+    "COD": "5.3.02.01.13",
+    "TIPO": "Livro",
+    "TEMP": "Permanente"
+  },
+  {
+    "COD": "5.3.02.01.14",
+    "TIPO": "Livro",
+    "TEMP": "1"
+  },
+  {
+    "COD": "5.3.02.01.15",
+    "TIPO": "Relatório",
+    "TEMP": "10"
+  },
+  {
+    "COD": "5.3.02.01. 17",
+    "TIPO": "Livro/Ficha/ Relatório",
+    "TEMP": "Permanente"
+  },
+  {
+    "COD": "5.3.02.01.18",
+    "TIPO": "Livro",
+    "TEMP": "Permanente"
+  },
+  {
+    "COD": "5.3.02.01.19",
+    "TIPO": "Livro",
+    "TEMP": "Permanente"
+  },
+  {
+    "COD": "5.3.02.01.20",
+    "TIPO": "Livro",
+    "TEMP": "Permanente"
+  },
+  {
+    "COD": "5.3.02.01.20",
+    "TIPO": "Livro",
+    "TEMP": "Permanente"
+  },
+  {
+    "COD": "5.3.02.01.22",
+    "TIPO": "Livro",
+    "TEMP": "Permanente"
+  },
+  {
+    "COD": "5.3.02.01.23",
+    "TIPO": "Livro",
+    "TEMP": "6"
+  },
+  {
+    "COD": "5.3.02.01.24",
+    "TIPO": "Livro",
+    "TEMP": "Permanente"
+  },
+  {
+    "COD": "5.3.02.01.25",
+    "TIPO": "Livro",
+    "TEMP": "10"
+  },
+  {
+    "COD": "5.3.02.01.26",
+    "TIPO": "Livro",
+    "TEMP": "1"
+  },
+  {
+    "COD": "5.3.02.01.27",
+    "TIPO": "Livro",
+    "TEMP": "2"
+  },
+  {
+    "COD": "5.3.02.01.28",
+    "TIPO": "Livro",
+    "TEMP": "Permanente"
+  },
+  {
+    "COD": "5.3.02.01.29",
+    "TIPO": "Livro",
+    "TEMP": "Permanente"
+  },
+  {
+    "COD": "5.3.02.01.30",
+    "TIPO": "Livro",
+    "TEMP": "5"
+  },
+  {
+    "COD": "5.3.02.01.31",
+    "TIPO": "Ata",
+    "TEMP": "1"
+  },
+  {
+    "COD": "5.3.02.01.32",
+    "TIPO": "Projeto",
+    "TEMP": "10"
+  },
+  {
+    "COD": "5.3.02.01.33",
+    "TIPO": "Proposta",
+    "TEMP": "1"
+  },
+  {
+    "COD": "5.3.02.01.34",
+    "TIPO": "Projeto",
+    "TEMP": "Permanente"
+  },
+  {
+    "COD": "5.3.02.01.35",
+    "TIPO": "Projeto",
+    "TEMP": "Permanente"
+  },
+  {
+    "COD": "5.3.02.01.36",
+    "TIPO": "Folha",
+    "TEMP": "Permanente"
+  },
+  {
+    "COD": "5.3.02.01.37",
+    "TIPO": "Apostila",
+    "TEMP": "1"
+  },
+  {
+    "COD": "5.3.02.01.38",
+    "TIPO": "Ficha",
+    "TEMP": "2"
+  },
+  {
+    "COD": "5.3.02.01.39",
+    "TIPO": "Relatório",
+    "TEMP": "1"
+  },
+  {
+    "COD": "5.3.02.01.40",
+    "TIPO": "Projeto",
+    "TEMP": "Permanente"
+  },
+  {
+    "COD": "5.3.02.01.41",
+    "TIPO": "Formulário",
+    "TEMP": "Permanente"
+  },
+  {
+    "COD": "5.3.02.01.42",
+    "TIPO": "Relatório",
+    "TEMP": "2"
+  },
+  {
+    "COD": "5.3.02.01.43",
+    "TIPO": "Livro",
+    "TEMP": "1"
+  },
+  {
+    "COD": "5.3.02.01.44",
+    "TIPO": "Livro",
+    "TEMP": "2"
+  },
+  {
+    "COD": "5.3.02.01.45",
+    "TIPO": "Plano",
+    "TEMP": "1"
+  },
+  {
+    "COD": "5.3.02.01.46",
+    "TIPO": "Planilha",
+    "TEMP": "7"
+  },
+  {
+    "COD": "5.3.02.01.47",
+    "TIPO": "Planilha",
+    "TEMP": "7"
+  },
+  {
+    "COD": "5.3.02.01.48",
+    "TIPO": "Relatório",
+    "TEMP": "7"
+  },
+  {
+    "COD": "5.3.02.01.49",
+    "TIPO": "Relatório",
+    "TEMP": "7"
+  },
+  {
+    "COD": "5.3.02.01.50",
+    "TIPO": "Planilha",
+    "TEMP": "7"
+  },
+  {
+    "COD": "5.3.02.01.51",
+    "TIPO": "Relatório",
+    "TEMP": "7"
+  },
+  {
+    "COD": "5.3.02.01.52",
+    "TIPO": "Relatório",
+    "TEMP": "7"
+  },
+  {
+    "COD": "5.3.02.01.53",
+    "TIPO": "Planilha",
+    "TEMP": "7"
+  },
+  {
+    "COD": "5.3.02.01.54",
+    "TIPO": "Relatório",
+    "TEMP": "7"
+  },
+  {
+    "COD": "5.3.02.01.55",
+    "TIPO": "Relatório",
+    "TEMP": "7"
+  },
+  {
+    "COD": "5.3.02.01.56",
+    "TIPO": "Dossiê",
+    "TEMP": "7"
+  },
+  {
+    "COD": "5.3.02.01.57",
+    "TIPO": "Planilha",
+    "TEMP": "7"
+  },
+  {
+    "COD": "5.3.02.01.58",
+    "TIPO": "Relatório",
+    "TEMP": "7"
+  },
+  {
+    "COD": "5.3.02.01.59",
+    "TIPO": "Relatório",
+    "TEMP": "7"
+  },
+  {
+    "COD": "5.3.02.01.60",
+    "TIPO": "Relatório",
+    "TEMP": "7"
+  },
+  {
+    "COD": "5.3.02.01.61",
+    "TIPO": "Relatório",
+    "TEMP": "7"
+  },
+  {
+    "COD": "5.3.02.01.62",
+    "TIPO": "Relatório",
+    "TEMP": "7"
+  },
+  {
+    "COD": "5.3.02.01.63",
+    "TIPO": "Planilha",
+    "TEMP": "1"
+  },
+  {
+    "COD": "5.3.02.01.64",
+    "TIPO": "Relatório",
+    "TEMP": "7"
+  },
+  {
+    "COD": "5.3.02.01.65",
+    "TIPO": "Relatório",
+    "TEMP": "7"
+  },
+  {
+    "COD": "5.3.02.01.66",
+    "TIPO": "Planilha",
+    "TEMP": "7"
+  },
+  {
+    "COD": "5.3.02.01.67",
+    "TIPO": "Planilha",
+    "TEMP": "7"
+  },
+  {
+    "COD": "5.3.02.01.68",
+    "TIPO": "Planilha",
+    "TEMP": "7"
+  },
+  {
+    "COD": "5.3.02.01.69",
+    "TIPO": "Rol",
+    "TEMP": "7"
+  },
+  {
+    "COD": "5.3.03.00.01",
+    "TIPO": "Contrato/ Convênio",
+    "TEMP": "Permanente"
+  },
+  {
+    "COD": "5.3.03.00.03",
+    "TIPO": "Folders, cartazes, releases",
+    "TEMP": "1"
+  },
+  {
+    "COD": "5.3.03.00.07",
+    "TIPO": "Relatório",
+    "TEMP": "Permanente"
+  },
+  {
+    "COD": "5.3.03.00.08",
+    "TIPO": "Relatório",
+    "TEMP": "10"
+  },
+  {
+    "COD": "5.3.03.00.09",
+    "TIPO": "Relatório",
+    "TEMP": "Permanente"
+  },
+  {
+    "COD": "5.3.03.00.10",
+    "TIPO": "Livro",
+    "TEMP": "Permanente"
+  },
+  {
+    "COD": "5.3.03.00.11",
+    "TIPO": "Folha",
+    "TEMP": "10"
+  },
+  {
+    "COD": "5.3.03.00.13",
+    "TIPO": "Livro de registro",
+    "TEMP": "Permanente"
+  },
+  {
+    "COD": "5.3.03.00.14",
+    "TIPO": "Caderno",
+    "TEMP": "Permanente"
+  },
+  {
+    "COD": "5.3.03.00.15",
+    "TIPO": "Dossiê",
+    "TEMP": "Permanente"
+  },
+  {
+    "COD": "5.3.03.00.16",
+    "TIPO": "Proposta",
+    "TEMP": "1"
+  },
+  {
+    "COD": "5.3.03.00.17",
+    "TIPO": "Caderno",
+    "TEMP": "Permanente"
+  },
+  {
+    "COD": "5.3.03.00.18",
+    "TIPO": "Registro Fotográfico",
+    "TEMP": "Permanente"
+  },
+  {
+    "COD": "5.3.03.00.19",
+    "TIPO": "Dossiê",
+    "TEMP": "Permanente"
+  },
+  {
+    "COD": "5.3.03.00.20",
+    "TIPO": "em branco na TT",
+    "TEMP": "Em desuso. Use:  5.3.03.0019"
+  },
+  {
+    "COD": "5.3.03.00.21",
+    "TIPO": "em branco na TT",
+    "TEMP": "Ver código 2.0.04.01.01"
+  },
+  {
+    "COD": "5.3.03.00.22",
+    "TIPO": "Programa",
+    "TEMP": "Permanente"
+  },
+  {
+    "COD": "5.3.03.00.23",
+    "TIPO": "Ficha",
+    "TEMP": "3"
+  },
+  {
+    "COD": "5.3.03.00.24",
+    "TIPO": "Relatório",
+    "TEMP": "11"
+  },
+  {
+    "COD": "5.3.04.00.01",
+    "TIPO": "Contrato/ Convênio",
+    "TEMP": "1"
+  },
+  {
+    "COD": "5.3.04.00.02",
+    "TIPO": "Formulário",
+    "TEMP": "1"
+  },
+  {
+    "COD": "5.3.04.00.06",
+    "TIPO": "Planilha",
+    "TEMP": "1"
+  },
+  {
+    "COD": "5.3.04.00.07",
+    "TIPO": "Planilha",
+    "TEMP": "1"
+  },
+  {
+    "COD": "5.3.04.00.10",
+    "TIPO": "Processo",
+    "TEMP": "4"
+  },
+  {
+    "COD": "5.3.04.00.12",
+    "TIPO": "Formulário",
+    "TEMP": "2"
+  },
+  {
+    "COD": "5.3.04.00.13",
+    "TIPO": "Ficha",
+    "TEMP": "4"
+  },
+  {
+    "COD": "5.3.04.00.14",
+    "TIPO": "Planilha",
+    "TEMP": "2"
+  },
+  {
+    "COD": "5.3.04.00.15",
+    "TIPO": "Cronograma",
+    "TEMP": "2"
+  },
+  {
+    "COD": "5.3.04.00.16",
+    "TIPO": "Relatório",
+    "TEMP": "2"
+  },
+  {
+    "COD": "5.3.04.00.17",
+    "TIPO": "Ficha",
+    "TEMP": "4"
+  },
+  {
+    "COD": "5.3.04.00.18",
+    "TIPO": "Relatório",
+    "TEMP": "5"
+  },
+  {
+    "COD": "5.3.04.00.19",
+    "TIPO": "Livro",
+    "TEMP": "4"
+  },
+  {
+    "COD": "5.3.04.00.20",
+    "TIPO": "Dossiê",
+    "TEMP": "4"
+  },
+  {
+    "COD": "5.3.04.00.21",
+    "TIPO": "Relatório",
+    "TEMP": "7"
+  },
+  {
+    "COD": "5.3.04.00.22",
+    "TIPO": "em branco na TT",
+    "TEMP": "Ver TT código 2.0.10.00.05"
+  },
+  {
+    "COD": "5.3.04.00.23",
+    "TIPO": "em branco na TT",
+    "TEMP": "Não especificado"
+  },
+  {
+    "COD": "5.3.04.00.24",
+    "TIPO": "Cronograma",
+    "TEMP": "2"
+  },
+  {
+    "COD": "5.3.05.00.01",
+    "TIPO": "em branco na TT",
+    "TEMP": "Originais no DRM (Paço)"
+  },
+  {
+    "COD": "5.3.05.00.02",
+    "TIPO": "em branco na TT",
+    "TEMP": "Em desuso. Use: 3.0.03.00.15"
+  },
+  {
+    "COD": "5.3.05.00.03",
+    "TIPO": "em branco na TT",
+    "TEMP": "Em desuso. Use: 3.0.03.00.15"
+  },
+  {
+    "COD": "5.3.05.00.04",
+    "TIPO": "Balancete",
+    "TEMP": "6"
+  },
+  {
+    "COD": "5.3.05.00.05",
+    "TIPO": "Nota Fiscal/   Recibo",
+    "TEMP": "10"
+  },
+  {
+    "COD": "5.3.05.00.06",
+    "TIPO": "em branco na TT",
+    "TEMP": "Em desuso. Use: 2.0.01"
+  },
+  {
+    "COD": "5.3.05.00.07",
+    "TIPO": "em branco na TT",
+    "TEMP": "Em desuso. Use:  2.0.04"
+  },
+  {
+    "COD": "5.3.05.00.08",
+    "TIPO": "em branco na TT",
+    "TEMP": "Em desuso. Use:  2.0.10.00.01"
+  },
+  {
+    "COD": "5.3.05.00.09",
+    "TIPO": "em branco na TT",
+    "TEMP": "Em desuso. Use: 2.0.04.02.01"
+  },
+  {
+    "COD": "5.3.05.00.10",
+    "TIPO": "Planilha",
+    "TEMP": "2"
+  },
+  {
+    "COD": "5.3.05.00.11",
+    "TIPO": "Planilha",
+    "TEMP": "2"
+  },
+  {
+    "COD": "5.3.05.00.12",
+    "TIPO": "Planilha ",
+    "TEMP": "2"
+  },
+  {
+    "COD": "5.3.05.00.13",
+    "TIPO": "Planilha",
+    "TEMP": "Permanente"
+  },
+  {
+    "COD": "5.3.05.00.14",
+    "TIPO": "Formulário",
+    "TEMP": "1"
+  },
+  {
+    "COD": "5.3.05.00.15",
+    "TIPO": "em branco na TT",
+    "TEMP": "Em desuso. Use: 2.0.09.00.01"
+  },
+  {
+    "COD": "5.3.05.00.16",
+    "TIPO": "em branco na TT",
+    "TEMP": "Em desuso. Use: 2.0.09.00.06"
+  },
+  {
+    "COD": "5.3.05.00.17",
+    "TIPO": "Formulário",
+    "TEMP": "4"
+  },
+  {
+    "COD": "5.3.05.00.18",
+    "TIPO": "em branco na TT",
+    "TEMP": "Em desuso. Use: 2.0.09.00.01"
+  },
+  {
+    "COD": "5.3.05.00.19",
+    "TIPO": "Nota Fiscal",
+    "TEMP": "3"
+  },
+  {
+    "COD": "5.3.05.00.20",
+    "TIPO": "Dossiê",
+    "TEMP": "Para NF e Formulários use:  2.0.09.00.09"
+  },
+  {
+    "COD": "5.3.05.00.21",
+    "TIPO": "Multas e Recursos",
+    "TEMP": "5"
+  },
+  {
+    "COD": "5.3.05.00.22",
+    "TIPO": "Formulário",
+    "TEMP": "3"
+  },
+  {
+    "COD": "5.3.05.00.23",
+    "TIPO": "Formulário",
+    "TEMP": "Em desuso. Use: 5.3.05.00.20"
+  },
+  {
+    "COD": "5.3.05.00.24",
+    "TIPO": "Dossiê",
+    "TEMP": "Em desuso. Use: 5.3.05.00.20"
+  },
+  {
+    "COD": "5.4.03.00.10",
+    "TIPO": "Formulário",
+    "TEMP": "1"
+  },
+  {
+    "COD": "5.4.03.00.17",
+    "TIPO": "Formulário",
+    "TEMP": "5"
+  }
+]

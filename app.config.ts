@@ -32,7 +32,7 @@ const env = {
   appSlug: "temporalidade-app",
   // S3 URL of the app logo - set this to the URL returned by generate_image when creating custom logo
   // Leave empty to use the default icon from assets/images/icon.png
-  logoUrl: "",
+  logoUrl: "https://d2xsxph8kpxj0f.cloudfront.net/310519663134364355/D5X7oQBvenw9xEJTUNhjue/icon-VR7U2wH77DxVoGu29TDyUc.webp",
   scheme: schemeFromBundleId,
   iosBundleId: bundleId,
   androidPackage: bundleId,
