@@ -33,9 +33,9 @@
 
 ## Funcionalidades Novas - Estrutura Expandida
 
-- [ ] Atualizar estrutura de dados para 5 colunas (COD, SERIE, TIPO, TEMP, OBS)
-- [ ] Exibir todas as informações na busca por código
-- [ ] Indicar campos vazios ao usuário
-- [ ] Implementar busca por palavras-chave
-- [ ] Seleção de colunas para busca por palavras-chave
-- [ ] Busca em qualquer lugar das colunas selecionadas
+- [x] Atualizar estrutura de dados para 5 colunas (COD, SERIE, TIPO, TEMP, OBS)
+- [x] Exibir todas as informações na busca por código
+- [x] Indicar campos vazios ao usuário
+- [x] Implementar busca por palavras-chave
+- [x] Seleção de colunas para busca por palavras-chave
+- [x] Busca em qualquer lugar das colunas selecionadas
