@@ -29,3 +29,13 @@
 
 - [ ] Criar checkpoint final
 - [ ] Documentar instruções de uso
+
+
+## Funcionalidades Novas - Estrutura Expandida
+
+- [ ] Atualizar estrutura de dados para 5 colunas (COD, SERIE, TIPO, TEMP, OBS)
+- [ ] Exibir todas as informações na busca por código
+- [ ] Indicar campos vazios ao usuário
+- [ ] Implementar busca por palavras-chave
+- [ ] Seleção de colunas para busca por palavras-chave
+- [ ] Busca em qualquer lugar das colunas selecionadas
