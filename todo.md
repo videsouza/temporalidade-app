@@ -27,8 +27,10 @@
 
 ## Entrega
 
+- [x] Remover visualização de testes
+- [x] Criar tela de informações sobre o app
+- [x] Adicionar aba "Sobre" com dados de contato
 - [ ] Criar checkpoint final
-- [ ] Documentar instruções de uso
 
 
 ## Funcionalidades Novas - Estrutura Expandida
