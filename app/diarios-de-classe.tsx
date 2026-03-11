@@ -15,7 +15,7 @@ import {
   formatTemporalityDisplay,
 } from "@/hooks/use-diarios-temporalidade";
 
-type Step = "education" | "organization" | "level" | "result";
+type Step = "education" | "organization" | "level";
 
 export default function DiariosDeClasseScreen() {
   const router = useRouter();
@@ -49,14 +49,10 @@ export default function DiariosDeClasseScreen() {
 
   const handleLevelSelect = (level: { label: string; years: number }) => {
     setSelectedLevel(level);
-    setStep("result");
   };
 
   const handleBack = () => {
-    if (step === "result") {
-      setStep("level");
-      setSelectedLevel(null);
-    } else if (step === "level") {
+    if (step === "level") {
       if (educationType === "fundamental" || educationType === "eja") {
         setStep("organization");
       } else {
@@ -75,6 +71,10 @@ export default function DiariosDeClasseScreen() {
     setFundamentalOrg(null);
     setEjaLevel(null);
     setSelectedLevel(null);
+  };
+
+  const handleNewSearch = () => {
+    handleReset();
   };
 
   const getLevelOptions = () => {
@@ -129,11 +129,10 @@ export default function DiariosDeClasseScreen() {
               backgroundColor: colors.surface,
             }}
           >
-            <Text className="text-xs text-muted">
+              <Text className="text-xs text-muted">
               {step === "education" && "Etapa 1: Selecione o tipo de educação"}
               {step === "organization" && "Etapa 2: Selecione a forma de organização"}
               {step === "level" && "Etapa 3: Selecione o nível/série/fase"}
-              {step === "result" && "Resultado: Temporalidade calculada"}
             </Text>
           </View>
 
@@ -225,7 +224,7 @@ export default function DiariosDeClasseScreen() {
           )}
 
           {/* Result */}
-          {step === "result" && selectedLevel && (
+            {selectedLevel && (
             <View className="gap-4">
               <View
                 className="p-6 rounded-2xl gap-4 border-2"
@@ -244,20 +243,6 @@ export default function DiariosDeClasseScreen() {
                     value={`${selectedLevel.years} anos`}
                     colors={colors}
                   />
-                </View>
-
-                <View
-                  className="p-3 rounded-lg mt-2"
-                  style={{
-                    backgroundColor: colors.primary + "15",
-                  }}
-                >
-                  <Text className="text-xs text-foreground leading-relaxed">
-                    O diário de classe deve ser retido até o ano de{" "}
-                    <Text className="font-bold">{currentYear + selectedLevel.years}</Text>, ou seja,{" "}
-                    <Text className="font-bold">{selectedLevel.years} anos</Text> após o ano letivo do
-                    diário.
-                  </Text>
                 </View>
               </View>
             </View>
@@ -280,9 +265,9 @@ export default function DiariosDeClasseScreen() {
               </Pressable>
             )}
 
-            {step === "result" && (
+            {selectedLevel && (
               <Pressable
-                onPress={handleReset}
+                onPress={handleNewSearch}
                 style={({ pressed }) => [
                   {
                     backgroundColor: colors.primary,
