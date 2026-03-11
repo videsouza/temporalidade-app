@@ -244,17 +244,6 @@ export default function DiariosDeClasseScreen() {
                     value={`${selectedLevel.years} anos`}
                     colors={colors}
                   />
-                  <ResultRow
-                    label="Ano letivo do diário:"
-                    value={`${currentYear}`}
-                    colors={colors}
-                  />
-                  <ResultRow
-                    label="Reter até o ano:"
-                    value={`${currentYear + selectedLevel.years}`}
-                    colors={colors}
-                    highlight
-                  />
                 </View>
 
                 <View

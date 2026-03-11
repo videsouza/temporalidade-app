@@ -6,17 +6,15 @@ export type EducationType = "infantil" | "fundamental" | "eja";
 export type FundamentalOrganization = "serie" | "ano";
 export type EJALevel = "eja1" | "eja2";
 
-// Educação Infantil
+// Educação Infantil - Agrupados por temporalidade
 export const infantilLevels = [
   { label: "BI", years: 8 },
   { label: "BII", years: 7 },
   { label: "BIII", years: 6 },
   { label: "INFANTIL I", years: 5 },
   { label: "INFANTIL II", years: 4 },
-  { label: "INFANTIL III", years: 3 },
-  { label: "PRÉ I", years: 3 },
-  { label: "INFANTIL IV", years: 2 },
-  { label: "PRÉ II", years: 2 },
+  { label: "INFANTIL III e PRÉ I", years: 3 },
+  { label: "INFANTIL IV e PRÉ II", years: 2 },
 ];
 
 // Ensino Fundamental - Série

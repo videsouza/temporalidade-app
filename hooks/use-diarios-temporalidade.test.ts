@@ -62,14 +62,15 @@ describe("formatTemporalityDisplay", () => {
 });
 
 describe("Infantil Levels Data", () => {
-  it("should have correct infantil levels", () => {
-    expect(infantilLevels).toHaveLength(9);
+  it("should have correct infantil levels grouped by temporality", () => {
+    expect(infantilLevels).toHaveLength(7);
     expect(infantilLevels[0]).toEqual({ label: "BI", years: 8 });
-    expect(infantilLevels[8]).toEqual({ label: "PRÉ II", years: 2 });
+    expect(infantilLevels[5]).toEqual({ label: "INFANTIL III e PRÉ I", years: 3 });
+    expect(infantilLevels[6]).toEqual({ label: "INFANTIL IV e PRÉ II", years: 2 });
   });
 
   it("should have all infantil levels with correct years", () => {
-    const expectedYears = [8, 7, 6, 5, 4, 3, 3, 2, 2];
+    const expectedYears = [8, 7, 6, 5, 4, 3, 2];
     infantilLevels.forEach((level, index) => {
       expect(level.years).toBe(expectedYears[index]);
     });

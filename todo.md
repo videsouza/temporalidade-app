@@ -51,3 +51,9 @@
 - [x] Implementar cálculo automático de temporalidade
 - [x] Adicionar link na tela de busca para acessar Diários de Classe
 - [x] Criar testes para cálculo de temporalidade
+
+
+## Refinamentos - Diários de Classe
+
+- [x] Remover linha "Reter até o ano:" da tela de resultado
+- [x] Agrupar níveis de Educação Infantil com mesma temporalidade
