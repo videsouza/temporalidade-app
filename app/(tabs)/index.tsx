@@ -1,5 +1,6 @@
 import { ScrollView, Text, View, TextInput, Pressable, FlatList, ActivityIndicator, Switch } from "react-native";
 import { useState, useEffect, useMemo } from "react";
+import { Link } from "expo-router";
 import { ScreenContainer } from "@/components/screen-container";
 import { useColors } from "@/hooks/use-colors";
 import { useSearchHistory } from "@/hooks/use-search-history";
@@ -193,6 +194,21 @@ export default function HomeScreen() {
                 </Text>
               </Pressable>
             </View>
+
+            {/* Special Document Link */}
+            <Link href="/diarios-de-classe" asChild>
+              <Pressable
+                style={({ pressed }) => [
+                  {
+                    backgroundColor: colors.primary + "20",
+                    opacity: pressed ? 0.8 : 1,
+                  },
+                ]}
+                className="py-3 px-4 rounded-lg border"
+              >
+                <Text className="text-center font-semibold text-primary">📚 Diários de Classe</Text>
+              </Pressable>
+            </Link>
           </View>
 
           {/* Search Bar */}

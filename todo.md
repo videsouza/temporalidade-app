@@ -41,3 +41,13 @@
 - [x] Implementar busca por palavras-chave
 - [x] Seleção de colunas para busca por palavras-chave
 - [x] Busca em qualquer lugar das colunas selecionadas
+
+
+## Funcionalidades Especiais - Diários de Classe (5.3.02.01.12)
+
+- [x] Criar tela especializada para Diários de Classe
+- [x] Implementar seleção de tipo de educação (Infantil, Fundamental, EJA)
+- [x] Implementar navegação por série/ano/fase dentro de cada tipo
+- [x] Implementar cálculo automático de temporalidade
+- [x] Adicionar link na tela de busca para acessar Diários de Classe
+- [x] Criar testes para cálculo de temporalidade
