@@ -1,0 +1,65 @@
+[
+  {
+    "cod": "2.0.10.00.23",
+    "serie": "Textos de Apoio Técnico (GOMAQ, SOL, MILCLEAN, DDDRIM)",
+    "tipo": "Textos",
+    "temp": "1",
+    "obs": "Utilize SÉRIE: Textos de Apoio Técnico"
+  },
+  {
+    "cod": "2.0.10.00.23",
+    "serie": "Textos de Apoio Técnico (atraso, atrasado, saída antecipada)",
+    "tipo": "Textos",
+    "temp": "1",
+    "obs": "Utilize SÉRIE: Textos de Apoio Técnico"
+  },
+  {
+    "cod": "2.0.10.00.23",
+    "serie": "Textos de Apoio Técnico (OBA, OBMEP, SAEB, SAREM, SARESP - lista de presença, prova de redação, folha de respostas, gabarito, relatório do aplicador)",
+    "tipo": "Textos",
+    "temp": "1",
+    "obs": "Utilize SÉRIE: Textos de Apoio Técnico"
+  },
+  {
+    "cod": "2.0.10.00.23",
+    "serie": "Textos de Apoio Técnico (encaminhamento de servidor/professor/estagiário/funcionário/bolsista)",
+    "tipo": "Textos",
+    "temp": "1",
+    "obs": "Utilize SÉRIE: Textos de Apoio Técnico"
+  },
+  {
+    "cod": "5.3.02.01.23",
+    "serie": "Livro de Atas de Reuniões Administrativas e Pedagógicas (HTC, RPA)",
+    "tipo": "Livro",
+    "temp": "6",
+    "obs": "Utilize SÉRIE: Livro de Atas de Reuniões Administrativas e Pedagógicas"
+  },
+  {
+    "cod": "2.0.10.00.23",
+    "serie": "Textos de Apoio Técnico (Acompanhamento dos processos de compra já digitalizados no SIPEX)",
+    "tipo": "Textos",
+    "temp": "1",
+    "obs": "Utilize SÉRIE: Textos de Apoio Técnico"
+  },
+  {
+    "cod": "2.0.10.00.23",
+    "serie": "Textos de Apoio Técnico (Avaliação diagnóstica e/ou bimestral de alunos)",
+    "tipo": "Textos",
+    "temp": "1",
+    "obs": "Utilize SÉRIE: Textos de Apoio Técnico"
+  },
+  {
+    "cod": "2.0.10.00.23",
+    "serie": "Textos de Apoio Técnico (Autorização para projeto Pincel Mágico)",
+    "tipo": "Textos",
+    "temp": "1",
+    "obs": "Utilize SÉRIE: Textos de Apoio Técnico"
+  },
+  {
+    "cod": "2.0.10.00.23",
+    "serie": "Textos de Apoio Técnico (Grade de horário de professor)",
+    "tipo": "Textos",
+    "temp": "1",
+    "obs": "Utilize SÉRIE: Textos de Apoio Técnico"
+  }
+]
