@@ -17,7 +17,7 @@ export default function AboutScreen() {
           <View className="items-center gap-4">
             <Text className="text-6xl">📋</Text>
             <Text className="text-3xl font-bold text-foreground">Temporalidade</Text>
-            <Text className="text-sm text-muted">Versão 1.0.2</Text>
+            <Text className="text-sm text-muted">Versão 1.0.7</Text>
           </View>
 
           {/* Main Info Card */}
@@ -91,7 +91,7 @@ export default function AboutScreen() {
                   backgroundColor: colors.primary + "15",
                 }}
               >
-                <Text className="text-2xl font-bold text-primary">238</Text>
+                <Text className="text-2xl font-bold text-primary">246</Text>
                 <Text className="text-xs text-muted text-center">Documentos</Text>
               </View>
               <View
@@ -100,7 +100,7 @@ export default function AboutScreen() {
                   backgroundColor: colors.primary + "15",
                 }}
               >
-                <Text className="text-2xl font-bold text-primary">230</Text>
+                <Text className="text-2xl font-bold text-primary">228</Text>
                 <Text className="text-xs text-muted text-center">Códigos</Text>
               </View>
               <View
@@ -109,7 +109,7 @@ export default function AboutScreen() {
                   backgroundColor: colors.primary + "15",
                 }}
               >
-                <Text className="text-2xl font-bold text-primary">77</Text>
+                <Text className="text-2xl font-bold text-primary">75</Text>
                 <Text className="text-xs text-muted text-center">Tipos</Text>
               </View>
             </View>
