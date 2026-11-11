@@ -1,5 +1,5 @@
 import { FlatList, Pressable, Text, TextInput, View } from "react-native";
-import { Link } from "expo-router";
+import { Link, useLocalSearchParams } from "expo-router";
 import { useMemo, useState } from "react";
 
 import { ScreenContainer } from "@/components/screen-container";
@@ -14,7 +14,9 @@ type Setor = {
 
 export default function SetoresScreen() {
   const colors = useColors();
-  const [query, setQuery] = useState("");
+  const { quickQuery: quickQueryParam } = useLocalSearchParams<{ quickQuery?: string }>();
+  const initialQuickQuery = typeof quickQueryParam === "string" ? quickQueryParam : "";
+  const [query, setQuery] = useState(initialQuickQuery);
 
   const results = useMemo(() => {
     const term = normalizeSearchText(query.trim());

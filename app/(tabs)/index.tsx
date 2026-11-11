@@ -1,15 +1,24 @@
-import { Pressable, ScrollView, Text, View } from "react-native";
+import { Pressable, ScrollView, Text, TextInput, View } from "react-native";
 import { useRouter } from "expo-router";
 import MaterialIcons from "@expo/vector-icons/MaterialIcons";
+import { useMemo, useState } from "react";
 
 import { ScreenContainer } from "@/components/screen-container";
 import { useColors } from "@/hooks/use-colors";
 import { HOME_CATEGORIES } from "@/lib/home-categories";
+import { getQuickSearchCounts } from "@/lib/quick-search";
+import data from "@/data.json";
+import setores from "@/setores.json";
 
 export default function HomeScreen() {
   const colors = useColors();
   const router = useRouter();
   const [temporalidadeCategory, setoresCategory] = HOME_CATEGORIES;
+  const [quickQuery, setQuickQuery] = useState("");
+  const quickCounts = useMemo(
+    () => getQuickSearchCounts(quickQuery, data, setores),
+    [quickQuery],
+  );
 
   return (
     <ScreenContainer className="p-4 bg-background">
@@ -20,6 +29,74 @@ export default function HomeScreen() {
             <Text className="text-sm text-muted text-center">
               Escolha uma categoria para iniciar sua busca
             </Text>
+          </View>
+
+          <View className="gap-3">
+            <Text className="text-sm font-semibold text-foreground">Pesquisa rápida</Text>
+            <View
+              className="flex-row items-center gap-2 px-4 py-3 rounded-lg border bg-surface"
+              style={{ borderColor: colors.border }}
+            >
+              <MaterialIcons name="search" size={24} color={colors.muted} />
+              <TextInput
+                value={quickQuery}
+                onChangeText={setQuickQuery}
+                placeholder="Digite um termo para pesquisar"
+                placeholderTextColor={colors.muted}
+                className="flex-1 text-base"
+                style={{ color: colors.foreground }}
+                autoCapitalize="none"
+                returnKeyType="search"
+              />
+              {!!quickQuery && (
+                <Pressable onPress={() => setQuickQuery("")} style={({ pressed }) => ({ opacity: pressed ? 0.55 : 1 })}>
+                  <Text className="text-lg text-muted">✕</Text>
+                </Pressable>
+              )}
+            </View>
+
+            {!!quickQuery.trim() && (
+              <View
+                className="p-4 rounded-xl border gap-3"
+                style={{ backgroundColor: colors.primary + "10", borderColor: colors.border }}
+              >
+                <Text className="text-sm text-foreground">
+                  Resultados para <Text className="font-bold">“{quickQuery.trim()}”</Text>
+                </Text>
+                <View className="flex-row gap-3">
+                  <Pressable
+                    accessibilityRole="button"
+                    onPress={() => router.push({ pathname: "/temporalidade", params: { quickQuery: quickQuery.trim() } })}
+                    style={({ pressed }) => ({
+                      flex: 1,
+                      backgroundColor: colors.primary,
+                      borderRadius: 10,
+                      padding: 12,
+                      opacity: pressed ? 0.8 : 1,
+                    })}
+                  >
+                    <Text className="text-white text-xs font-semibold text-center">Temporalidade</Text>
+                    <Text className="text-white text-lg font-bold text-center mt-1">{quickCounts.documents}</Text>
+                  </Pressable>
+                  <Pressable
+                    accessibilityRole="button"
+                    onPress={() => router.push({ pathname: "/setores", params: { quickQuery: quickQuery.trim() } })}
+                    style={({ pressed }) => ({
+                      flex: 1,
+                      backgroundColor: colors.surface,
+                      borderColor: colors.primary,
+                      borderWidth: 1,
+                      borderRadius: 10,
+                      padding: 12,
+                      opacity: pressed ? 0.8 : 1,
+                    })}
+                  >
+                    <Text className="text-primary text-xs font-semibold text-center">Setores</Text>
+                    <Text className="text-primary text-lg font-bold text-center mt-1">{quickCounts.sectors}</Text>
+                  </Pressable>
+                </View>
+              </View>
+            )}
           </View>
 
           <View style={{ gap: 16 }}>

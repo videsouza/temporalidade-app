@@ -1,6 +1,6 @@
 import { ScrollView, Text, View, TextInput, Pressable, FlatList, ActivityIndicator, Switch } from "react-native";
 import { useState, useEffect, useMemo } from "react";
-import { Link } from "expo-router";
+import { Link, useLocalSearchParams } from "expo-router";
 import { ScreenContainer } from "@/components/screen-container";
 import { useColors } from "@/hooks/use-colors";
 import { useSearchHistory } from "@/hooks/use-search-history";
@@ -41,9 +41,14 @@ const isEmpty = (value: string): boolean => {
 
 export default function HomeScreen() {
   const colors = useColors();
+  const { quickQuery: quickQueryParam } = useLocalSearchParams<{ quickQuery?: string }>();
+  const initialQuickQuery = typeof quickQueryParam === "string" ? quickQueryParam : "";
+  const initialSearchMode: SearchMode = initialQuickQuery && /^[\d.\-/]+$/.test(initialQuickQuery) ? "code" : "keyword";
   const { history, isLoading: historyLoading, addToHistory, clearHistory, removeFromHistory } = useSearchHistory();
-  const [searchMode, setSearchMode] = useState<SearchMode>("code");
-  const [searchQuery, setSearchQuery] = useState("");
+  const [searchMode, setSearchMode] = useState<SearchMode>(initialQuickQuery ? initialSearchMode : "code");
+  const [searchQuery, setSearchQuery] = useState(
+    initialQuickQuery ? (initialSearchMode === "code" ? formatDocumentCode(initialQuickQuery) : initialQuickQuery) : "",
+  );
   const [selectedCode, setSelectedCode] = useState<string | null>(null);
   const [isLoading, setIsLoading] = useState(false);
   const [columnFilters, setColumnFilters] = useState<ColumnFilter>({
