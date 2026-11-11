@@ -1,0 +1,100 @@
+import { FlatList, Pressable, Text, TextInput, View } from "react-native";
+import { Link } from "expo-router";
+import { useMemo, useState } from "react";
+
+import { ScreenContainer } from "@/components/screen-container";
+import { useColors } from "@/hooks/use-colors";
+import { normalizeSearchText } from "@/lib/search-utils";
+import setores from "@/setores.json";
+
+type Setor = {
+  codigo: string;
+  descricao: string;
+};
+
+export default function SetoresScreen() {
+  const colors = useColors();
+  const [query, setQuery] = useState("");
+
+  const results = useMemo(() => {
+    const term = normalizeSearchText(query.trim());
+    if (!term) return setores as Setor[];
+
+    return (setores as Setor[]).filter((item) =>
+      normalizeSearchText(`${item.codigo} ${item.descricao}`).includes(term),
+    );
+  }, [query]);
+
+  const clearSearch = () => setQuery("");
+
+  return (
+    <ScreenContainer className="bg-background">
+      <FlatList
+        data={results}
+        keyExtractor={(item) => item.codigo}
+        keyboardShouldPersistTaps="handled"
+        contentContainerStyle={{ padding: 16, paddingBottom: 32 }}
+        ListHeaderComponent={
+          <View className="gap-4 mb-5">
+            <View className="flex-row items-center gap-3">
+              <Link href="/" asChild>
+                <Pressable
+                  accessibilityRole="button"
+                  accessibilityLabel="Voltar para categorias"
+                  style={({ pressed }) => ({ opacity: pressed ? 0.55 : 1 })}
+                >
+                  <Text className="text-2xl text-primary">‹</Text>
+                </Pressable>
+              </Link>
+              <View className="flex-1">
+                <Text className="text-3xl font-bold text-foreground">Busca de Setores</Text>
+                <Text className="text-sm text-muted">{(setores as Setor[]).length} setores cadastrados</Text>
+              </View>
+            </View>
+
+            <View
+              className="flex-row items-center gap-2 px-4 py-3 rounded-lg border bg-surface"
+              style={{ borderColor: colors.border }}
+            >
+              <TextInput
+                value={query}
+                onChangeText={setQuery}
+                placeholder="Digite o código ou nome do setor"
+                placeholderTextColor={colors.muted}
+                className="flex-1 text-base"
+                style={{ color: colors.foreground }}
+                autoCapitalize="none"
+                returnKeyType="search"
+              />
+              {!!query && (
+                <Pressable onPress={clearSearch} style={({ pressed }) => ({ opacity: pressed ? 0.55 : 1 })}>
+                  <Text className="text-lg text-muted">✕</Text>
+                </Pressable>
+              )}
+            </View>
+
+            <Text className="text-xs font-semibold text-muted uppercase">
+              {query.trim() ? `${results.length} resultado(s)` : "Todos os setores"}
+            </Text>
+          </View>
+        }
+        ListEmptyComponent={
+          <View className="items-center gap-3 py-12">
+            <Text className="text-5xl">⌕</Text>
+            <Text className="text-lg font-semibold text-foreground">Nenhum setor encontrado</Text>
+            <Text className="text-sm text-muted text-center">Tente outro código ou termo de busca.</Text>
+          </View>
+        }
+        renderItem={({ item }) => (
+          <View
+            className="p-4 rounded-xl border mb-3"
+            style={{ backgroundColor: colors.surface, borderColor: colors.border }}
+          >
+            <Text className="text-xs font-semibold text-primary uppercase">Código {item.codigo}</Text>
+            <Text className="text-base font-semibold text-foreground mt-2 leading-relaxed">{item.descricao}</Text>
+          </View>
+        )}
+      />
+    </ScreenContainer>
+  );
+}

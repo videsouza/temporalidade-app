@@ -1,0 +1,2558 @@
+[
+  {
+    "codigo": "1",
+    "descricao": "SE - DAF - COORDENADORIA DE INFORMÁTICA (ASSESSORIA DE INFORMÁTIC"
+  },
+  {
+    "codigo": "2",
+    "descricao": "CORPO DE BOMBEIROS"
+  },
+  {
+    "codigo": "3",
+    "descricao": "CRECHE JARDIM CASTANHEIRAS"
+  },
+  {
+    "codigo": "4",
+    "descricao": "CRECHE JARDIM FLAMBOYANT"
+  },
+  {
+    "codigo": "5",
+    "descricao": "CRECHE JARDIM TELESPARK"
+  },
+  {
+    "codigo": "6",
+    "descricao": "EMEF PROF ANA BERLING DE MACEDO"
+  },
+  {
+    "codigo": "7",
+    "descricao": "EMEF PROF ANTÔNIO PALMA SOBRINHO"
+  },
+  {
+    "codigo": "8",
+    "descricao": "EMEF DOM PEDRO ALCÂNTARA - CAIC"
+  },
+  {
+    "codigo": "9",
+    "descricao": "EMEF PROF HOMERA DA SILVA BRAGA"
+  },
+  {
+    "codigo": "10",
+    "descricao": "EMEF PROF IGNEZ SAGULA FOSSÁ"
+  },
+  {
+    "codigo": "11",
+    "descricao": "EMEF PROF ILGA PUSPLATAIS"
+  },
+  {
+    "codigo": "12",
+    "descricao": "EMEF PROF MARIA APARECIDA SANTOS RONCONI"
+  },
+  {
+    "codigo": "13",
+    "descricao": "EMEF PROF MERCEDES RACHID EDWARDS"
+  },
+  {
+    "codigo": "14",
+    "descricao": "EMEF PROF POSSIDÔNIO JOSÉ DE FREITAS"
+  },
+  {
+    "codigo": "15",
+    "descricao": "EMEF PROF ÁLVARO GONÇALVES"
+  },
+  {
+    "codigo": "16",
+    "descricao": "EMEF PROF ÁUREA CANTINHO RODRIGUES"
+  },
+  {
+    "codigo": "17",
+    "descricao": "EMEF PROF DOSULINA CHENQUE CHAVES DE ANDRADE"
+  },
+  {
+    "codigo": "18",
+    "descricao": "EMEF PROF ELIZABETE DE PAULA HONORATO"
+  },
+  {
+    "codigo": "19",
+    "descricao": "EMEF PROF ELZA REGINA FERREIRA BEVILACQUA"
+  },
+  {
+    "codigo": "20",
+    "descricao": "EMEF PROF FLÁVIO BERLING MACEDO"
+  },
+  {
+    "codigo": "21",
+    "descricao": "EMEF PROF GERALDO DE ALMEIDA"
+  },
+  {
+    "codigo": "22",
+    "descricao": "EMEF PROF HÉLIO AUGUSTO DE SOUZA"
+  },
+  {
+    "codigo": "23",
+    "descricao": "EMEF PROF ILDETE MENDONÇA BARBOSA"
+  },
+  {
+    "codigo": "24",
+    "descricao": "EMEF PROF JACYRA VIEIRA BARACHO"
+  },
+  {
+    "codigo": "25",
+    "descricao": "EMEF PROF LEONOR PEREIRA NUNES GALVÃO"
+  },
+  {
+    "codigo": "26",
+    "descricao": "EMEF PROF LUCIA PEREIRA RODRIGUES"
+  },
+  {
+    "codigo": "27",
+    "descricao": "EMEF PROF LUIZ LEITE"
+  },
+  {
+    "codigo": "28",
+    "descricao": "EMEF PROF LUZIA LEVINA APARECIDA BORGES"
+  },
+  {
+    "codigo": "29",
+    "descricao": "EMEF PROF MARIA AMÉLIA WAKAMATSU"
+  },
+  {
+    "codigo": "30",
+    "descricao": "EMEF PROF MARIA DE MELO"
+  },
+  {
+    "codigo": "31",
+    "descricao": "EMEF PROF MARIA NAZARETH DE MOURA VERONESE"
+  },
+  {
+    "codigo": "32",
+    "descricao": "EMEF PROF MARIA OFÉLIA VENEZIANI PEDROSA"
+  },
+  {
+    "codigo": "33",
+    "descricao": "EMEF PROF MARIANA TEIXEIRA CORNÉLIO"
+  },
+  {
+    "codigo": "34",
+    "descricao": "EMEF PROF MERCEDES CARNEVALLI KLEIN"
+  },
+  {
+    "codigo": "35",
+    "descricao": "EMEF PROF MOACYR BENEDICTO DE SOUZA"
+  },
+  {
+    "codigo": "36",
+    "descricao": "EMEF PROF NORMA DE CONTI SIMÃO"
+  },
+  {
+    "codigo": "37",
+    "descricao": "EMEF PROF OTACÍLIA MADUREIRA DE MOURA"
+  },
+  {
+    "codigo": "38",
+    "descricao": "EMEF PROF PALMYRA SANTANNA"
+  },
+  {
+    "codigo": "39",
+    "descricao": "EMEF PROF ROSA TOMITA / ANTIGO JARDIM SÃO JOSÉ II"
+  },
+  {
+    "codigo": "40",
+    "descricao": "EMEF PROF RUTH NUNES DA TRINDADE"
+  },
+  {
+    "codigo": "41",
+    "descricao": "EMEF PROF SEBASTIANA COBRA"
+  },
+  {
+    "codigo": "42",
+    "descricao": "EMEF PROF SILVANA MARIA RIBEIRO DE ALMEIDA"
+  },
+  {
+    "codigo": "43",
+    "descricao": "EMEF PROF SONIA MARIA PEREIRA SILVA"
+  },
+  {
+    "codigo": "44",
+    "descricao": "EMEF PROF THEREZINHA DO MENINO JESUS SOARES NASCIMENTO"
+  },
+  {
+    "codigo": "45",
+    "descricao": "EMEF PROF VERA BABO DE OLIVEIRA"
+  },
+  {
+    "codigo": "46",
+    "descricao": "EMEF PROF VERA LÚCIA CARNEVALLI BARRETO"
+  },
+  {
+    "codigo": "47",
+    "descricao": "EMEF PROF WALDEMAR RAMOS"
+  },
+  {
+    "codigo": "48",
+    "descricao": "EMEI PROF ÂNGELA DE CASTRO FERNANDES LOPES"
+  },
+  {
+    "codigo": "49",
+    "descricao": "EMEI ARTUR APARECIDO DA ROSA"
+  },
+  {
+    "codigo": "50",
+    "descricao": "EMEI CASSIANO RICARDO"
+  },
+  {
+    "codigo": "51",
+    "descricao": "EMEI PROF ELZA FERREIRA RAHAL (EMEI VILA MARIA)"
+  },
+  {
+    "codigo": "52",
+    "descricao": "EMEI FEBRÔNIO PEREIRA GOMES"
+  },
+  {
+    "codigo": "53",
+    "descricao": "EMEI JARDIM CEREJEIRAS"
+  },
+  {
+    "codigo": "54",
+    "descricao": "EMEI JARDIM MORUMBI (DENOMINADA EMEI MARIA CLARA FERNANDES)"
+  },
+  {
+    "codigo": "55",
+    "descricao": "EMEI JOSÉ MADUREIRA LEBRÃO (MARIANA II)"
+  },
+  {
+    "codigo": "56",
+    "descricao": "EMEI JOSÉ PURCINI (EMEI JARDIM SANTA INÊS II)"
+  },
+  {
+    "codigo": "57",
+    "descricao": "EMEI PROF LUIZ SUNDFELD"
+  },
+  {
+    "codigo": "58",
+    "descricao": "EMEI MELVIN JONES (INATIVO)"
+  },
+  {
+    "codigo": "59",
+    "descricao": "EMEI PADRE JOÃO MARCONDES GUIMARÃES"
+  },
+  {
+    "codigo": "60",
+    "descricao": "EMEI PADRE JOSÉ RUBENS FRANCO BONAFÉ"
+  },
+  {
+    "codigo": "61",
+    "descricao": "EMEI PROF ANA LÚCIA DE CASTRO MICHELETTO"
+  },
+  {
+    "codigo": "62",
+    "descricao": "EMEI PROF ARLINDO CAETANO FILHO"
+  },
+  {
+    "codigo": "63",
+    "descricao": "EMEI PROF CREMILDA ALVES DE OLIVEIRA AZEVEDO"
+  },
+  {
+    "codigo": "64",
+    "descricao": "EMEI PROF DOMINGOS DE MACEDO CUSTÓDIO"
+  },
+  {
+    "codigo": "65",
+    "descricao": "EMEI PROF ÉDERA IRENE PEREIRA OL CARDOSO (NEI JD. PARAÍSO DO SOL)"
+  },
+  {
+    "codigo": "66",
+    "descricao": "EMEI PROF IDELENA MENEZES TREFÍLIO DE CARVALHO"
+  },
+  {
+    "codigo": "67",
+    "descricao": "EMEI PROF IRACEMA OLIVEIRA DE MELLO"
+  },
+  {
+    "codigo": "68",
+    "descricao": "EMEI PROF JANE PALUMBO (D PEDRO)"
+  },
+  {
+    "codigo": "69",
+    "descricao": "NEI PROF JOSÉ ANTERO CURSINO DOS SANTOS"
+  },
+  {
+    "codigo": "70",
+    "descricao": "EMEI PROF JOSE SODERO BITENCOURT (BQ IPES)"
+  },
+  {
+    "codigo": "71",
+    "descricao": "EMEI PROF LADIEL BENEDITO DE CARVALHO"
+  },
+  {
+    "codigo": "72",
+    "descricao": "EMEI PROF LOURDES DE OLIVEIRA MENDES (JD. PARARANGABA)"
+  },
+  {
+    "codigo": "73",
+    "descricao": "EMEI PROF MARIA ALICE PASQUARELLI"
+  },
+  {
+    "codigo": "74",
+    "descricao": "EMEI PROF MARIA DA GLÓRIA MARIANO SANTOS"
+  },
+  {
+    "codigo": "75",
+    "descricao": "EMEI PROF MARIA EZEQUIEL SANTANA"
+  },
+  {
+    "codigo": "76",
+    "descricao": "EMEI PROF MARIA JOSÉ GUIDO BROGLIATO FREIRE"
+  },
+  {
+    "codigo": "77",
+    "descricao": "NEI PROF MARIANITA OLIVEIRA PEREIRA SANTOS"
+  },
+  {
+    "codigo": "78",
+    "descricao": "EMEI PROF MARILDA APARECIDA MONTEMÓR"
+  },
+  {
+    "codigo": "79",
+    "descricao": "EMEI PROF MÁRIO CAMPANER"
+  },
+  {
+    "codigo": "80",
+    "descricao": "EMEI PROF NORMA LÚCIA RODRIGUES DE ALMEIDA"
+  },
+  {
+    "codigo": "81",
+    "descricao": "EMEI PROF OLGA FRANCO CUSTÓDIO"
+  },
+  {
+    "codigo": "82",
+    "descricao": "EMEI PROF SANDRA REGINA ALMEIDA PAULO"
+  },
+  {
+    "codigo": "83",
+    "descricao": "EMEI PROF ZELI DE TOLEDO DIAS"
+  },
+  {
+    "codigo": "84",
+    "descricao": "EMEI PROF ZENAIDE VILALVA DE ARAÚJO"
+  },
+  {
+    "codigo": "85",
+    "descricao": "EMEI PROF ZILDA COSTA DE OLIVEIRA"
+  },
+  {
+    "codigo": "86",
+    "descricao": "EMEI TORATARO TAKITANI"
+  },
+  {
+    "codigo": "87",
+    "descricao": "FNDE - FUNDO NACIONAL DE DESENVOLVIMENTO DA EDUCAÇÃO"
+  },
+  {
+    "codigo": "88",
+    "descricao": "IMI PROF ARMILINDA LOCATELLI DE MACEDO"
+  },
+  {
+    "codigo": "89",
+    "descricao": "IMI BENEDITO CARVALHO DOS SANTOS"
+  },
+  {
+    "codigo": "90",
+    "descricao": "IMI DOM PEDRO DE ALCÂNTARA"
+  },
+  {
+    "codigo": "91",
+    "descricao": "NEI FÁTIMA APARECIDA BERTHOUD"
+  },
+  {
+    "codigo": "92",
+    "descricao": "IMI FLAVIO LENZI"
+  },
+  {
+    "codigo": "93",
+    "descricao": "IMI JESUS DE NAZARÉ"
+  },
+  {
+    "codigo": "94",
+    "descricao": "IMI PROF JOANA MATTAR DE OLIVEIRA"
+  },
+  {
+    "codigo": "95",
+    "descricao": "IMI JOÃO LOPES SIMÕES"
+  },
+  {
+    "codigo": "96",
+    "descricao": "IMI MARILDA FERREIRA DE BRITO BARROS PEREIRA"
+  },
+  {
+    "codigo": "97",
+    "descricao": "IMI MAROCA VENEZIANI"
+  },
+  {
+    "codigo": "98",
+    "descricao": "IMI MARIA APARECIDA DA SILVA SOUZA - ANTIGA IMI POUSADA DO VALE"
+  },
+  {
+    "codigo": "99",
+    "descricao": "IMI PROF ANJELA MARIA DE SOUZA ALVES"
+  },
+  {
+    "codigo": "100",
+    "descricao": "CIEE - CENTRO DE INTEGRAÇÃO DE EMPRESA ESCOLA"
+  },
+  {
+    "codigo": "101",
+    "descricao": "MONDEO COMÉRCIO -IMPORTAÇÃO E EXPORTAÇÃO LTDA"
+  },
+  {
+    "codigo": "102",
+    "descricao": "NEI ALADIR M R GOMES (NEI VIDOCA)"
+  },
+  {
+    "codigo": "103",
+    "descricao": "EE ESTEVAM FERRI"
+  },
+  {
+    "codigo": "104",
+    "descricao": "NEI ALTOS DE SANTANA"
+  },
+  {
+    "codigo": "105",
+    "descricao": "DELEGACIA SECCIONAL E INVESTIGAÇÃO GERAIS DE SÃO JOSÉ DOS CAMPOS"
+  },
+  {
+    "codigo": "106",
+    "descricao": "NEI CAMPOS DE SÃO JOSÉ"
+  },
+  {
+    "codigo": "107",
+    "descricao": "VEREADOR MACEDO BASTOS"
+  },
+  {
+    "codigo": "108",
+    "descricao": "NEI CASA DA AMIZADE (INATIVO -  ANEXO MELVIN JONES)"
+  },
+  {
+    "codigo": "109",
+    "descricao": "NEI CASA SANTA INÊS"
+  },
+  {
+    "codigo": "110",
+    "descricao": "NEI CHÁCARAS REUNIDAS"
+  },
+  {
+    "codigo": "111",
+    "descricao": "NEI CLARINHA(INATIVO)"
+  },
+  {
+    "codigo": "112",
+    "descricao": "NEI CONJUNTO INTEGRAÇÃO"
+  },
+  {
+    "codigo": "113",
+    "descricao": "NEI COSTINHA"
+  },
+  {
+    "codigo": "114",
+    "descricao": "NEI CRECHE DOM EPAMINONDAS"
+  },
+  {
+    "codigo": "115",
+    "descricao": "NEI CRECHE ÉDEN LAR DAS CRIANÇAS"
+  },
+  {
+    "codigo": "116",
+    "descricao": "NEI DOROTI DA SILVA DA CUNHA"
+  },
+  {
+    "codigo": "117",
+    "descricao": "NEI EUGÊNIO DE MELO"
+  },
+  {
+    "codigo": "118",
+    "descricao": "NEI FREITINHAS"
+  },
+  {
+    "codigo": "119",
+    "descricao": "NEI JARDIM ANHEMBI"
+  },
+  {
+    "codigo": "120",
+    "descricao": "NEI JARDIM CEREJEIRAS"
+  },
+  {
+    "codigo": "121",
+    "descricao": "NEI JARDIM COLONIAL"
+  },
+  {
+    "codigo": "122",
+    "descricao": "NEI JARDIM LIMOEIRO"
+  },
+  {
+    "codigo": "123",
+    "descricao": "NEI JARDIM NOVA ESPERANÇA (INATIVO)"
+  },
+  {
+    "codigo": "124",
+    "descricao": "NEI JARDIM SANTA FÉ"
+  },
+  {
+    "codigo": "125",
+    "descricao": "NEI JARDIM SÃO LEOPOLDO"
+  },
+  {
+    "codigo": "126",
+    "descricao": "NEI JARDIM SÃO VICENTE"
+  },
+  {
+    "codigo": "127",
+    "descricao": "NEI JOSÉ PAULINO BICUDO"
+  },
+  {
+    "codigo": "128",
+    "descricao": "NEI POUSADA DO VALE"
+  },
+  {
+    "codigo": "129",
+    "descricao": "NEI PROF ANA ISABEL BARBOSA"
+  },
+  {
+    "codigo": "130",
+    "descricao": "EMEI PROF CLEANIR SANTOS MALDONADO CAMPOY"
+  },
+  {
+    "codigo": "131",
+    "descricao": "NEI PROF ELZA MARIA DIAS MENDONÇA (FOI NEI MONTE CASTELO-522)"
+  },
+  {
+    "codigo": "132",
+    "descricao": "NEI RIO COMPRIDO"
+  },
+  {
+    "codigo": "133",
+    "descricao": "NEI SÃO FRANCISCO XAVIER"
+  },
+  {
+    "codigo": "134",
+    "descricao": "NEI TORRÃO DE OURO"
+  },
+  {
+    "codigo": "135",
+    "descricao": "NEI VICENTE SIMIÃO LUZ"
+  },
+  {
+    "codigo": "136",
+    "descricao": "NEI VILA CÉSAR (EMEI SILVIA HELENA)"
+  },
+  {
+    "codigo": "137",
+    "descricao": "NEI VILA PAIVA I / EMEI"
+  },
+  {
+    "codigo": "138",
+    "descricao": "POSTO DE BOMBEIROS"
+  },
+  {
+    "codigo": "139",
+    "descricao": "BANCOS"
+  },
+  {
+    "codigo": "140",
+    "descricao": "NEI VILA SÃO BENEDITO"
+  },
+  {
+    "codigo": "141",
+    "descricao": "NEI VILA SÃO BENTO"
+  },
+  {
+    "codigo": "142",
+    "descricao": "NEI VILA SÃO GERALDO"
+  },
+  {
+    "codigo": "143",
+    "descricao": "(NÃO UTILIZAR) NEI VILA SÃO PEDRO"
+  },
+  {
+    "codigo": "144",
+    "descricao": "NEI VILA VENEZIANI"
+  },
+  {
+    "codigo": "145",
+    "descricao": "SE - ADJ - PLANEJAMENTO EDUCACIONAL"
+  },
+  {
+    "codigo": "146",
+    "descricao": "SE - ADJ - SUPERVISÃO ESCOLAR"
+  },
+  {
+    "codigo": "147",
+    "descricao": "SE - ADJ - VIDA ESCOLAR"
+  },
+  {
+    "codigo": "148",
+    "descricao": "SE - ASSESSORIA DE IMPRENSA"
+  },
+  {
+    "codigo": "149",
+    "descricao": "SE - CEDEMP - CENTRO DE EDUCAÇÃO EMPREENDEDORA - CEE"
+  },
+  {
+    "codigo": "150",
+    "descricao": "SE - CONSULTORIA JURÍDICA"
+  },
+  {
+    "codigo": "151",
+    "descricao": "SE - DEB - DAE - COORDENADORIA PROGRAMAS E EVENTOS"
+  },
+  {
+    "codigo": "152",
+    "descricao": "SE - DAF - ALMOXARIFADO"
+  },
+  {
+    "codigo": "153",
+    "descricao": "SE - DAF - ARMAZEM"
+  },
+  {
+    "codigo": "154",
+    "descricao": "SE - DEB - BIBLIOTECA PÚBLICA CASSIANO RICARDO"
+  },
+  {
+    "codigo": "155",
+    "descricao": "SE - DAF - CONTROLE ORÇAMENTÁRIO"
+  },
+  {
+    "codigo": "156",
+    "descricao": "SE - DAF - COORDENADORIA MERENDA ESCOLAR"
+  },
+  {
+    "codigo": "157",
+    "descricao": "SE - DAF - COORDENADORIA PLANEJAMENTO E OBRAS"
+  },
+  {
+    "codigo": "158",
+    "descricao": "SE - DAF - COORDENADORIA SERVIÇOS INTERNOS (SUPERVISÃO DE SERVIÇO"
+  },
+  {
+    "codigo": "159",
+    "descricao": "SE - DAF - CSI - ARQUIVO GERAL"
+  },
+  {
+    "codigo": "160",
+    "descricao": "SE - DAF - CUSTOS"
+  },
+  {
+    "codigo": "161",
+    "descricao": "SE - DAF - DAP - PROFESSOR EVENTUAL"
+  },
+  {
+    "codigo": "162",
+    "descricao": "SE - DAF - DESENVOLVIMENTO"
+  },
+  {
+    "codigo": "163",
+    "descricao": "SE - DAF - DIVISÃO ADMINISTRAÇÃO - INATIVO"
+  },
+  {
+    "codigo": "164",
+    "descricao": "SE - DAF - DIVISAO ADMINISTRAÇÃO DE PESSOAL (COORD. ADMINISTRATIV"
+  },
+  {
+    "codigo": "165",
+    "descricao": "SE - DAF - DIVISÃO APOIO DIDÁTICO PEDAGÓGICO"
+  },
+  {
+    "codigo": "166",
+    "descricao": "SE - DAF - DIVISÃO APOIO LOGÍSTICO MANUTENÇÃO (DALM, DM)"
+  },
+  {
+    "codigo": "167",
+    "descricao": "SE - DAF - DIVISAO APOIO LOGÍSTICO, OBRAS E MANUTENÇÃO"
+  },
+  {
+    "codigo": "168",
+    "descricao": "SE - DAF - DIVISAO CONTROLADORIA, ORÇAMENTO E CUSTOS"
+  },
+  {
+    "codigo": "169",
+    "descricao": "(USE CÓD. 156) SE - DAF - DIVISAO MERENDA ESCOLAR"
+  },
+  {
+    "codigo": "170",
+    "descricao": "SE - DAF - DIVISAO SUPRIMENTOS (FOLLOW UP)"
+  },
+  {
+    "codigo": "171",
+    "descricao": "SE - DAF - DS - SUPERVISÃO COMPRAS"
+  },
+  {
+    "codigo": "172",
+    "descricao": "SE - DAF - EDUCAÇÃO NUTRICIONAL"
+  },
+  {
+    "codigo": "173",
+    "descricao": "SE - DAF - MANUTENÇAO INFRA-ESTRUTURA"
+  },
+  {
+    "codigo": "174",
+    "descricao": "SE - DAF - MANUTENÇÃO PREDIAL"
+  },
+  {
+    "codigo": "175",
+    "descricao": "(USE CÓD. 156) SE - DAF - MERENDA"
+  },
+  {
+    "codigo": "176",
+    "descricao": "(USE CÓD. 156) SE - DAF - MERENDA - ALMOXARIFADO/DISTRIBUIÇÃO"
+  },
+  {
+    "codigo": "177",
+    "descricao": "(USE CÓD. 156) SE - DAF - MERENDA ESCOLAR CRECHE"
+  },
+  {
+    "codigo": "178",
+    "descricao": "(USE CÓD. 156) SE - DAF - MERENDA ESCOLAR EMEF, EMEI E NEI"
+  },
+  {
+    "codigo": "179",
+    "descricao": "SE - DAF - PATRIMÔNIO"
+  },
+  {
+    "codigo": "180",
+    "descricao": "SE - DAF - PLANING E ADMINISTRAÇÃO"
+  },
+  {
+    "codigo": "181",
+    "descricao": "SE - DAF - PROGRAMAS"
+  },
+  {
+    "codigo": "182",
+    "descricao": "ESCOLAS DE EDUCAÇÃO INFANTIL PARTICULARES"
+  },
+  {
+    "codigo": "183",
+    "descricao": "SE - DAF - SUPERVISAO ADMINISTRAÇÃO"
+  },
+  {
+    "codigo": "184",
+    "descricao": "SE - DAF - SUPERVISAO DE PESSOAL (DRH)"
+  },
+  {
+    "codigo": "185",
+    "descricao": "SE - DAF - SUPERVISAO DE TRANSPORTE"
+  },
+  {
+    "codigo": "186",
+    "descricao": "SE - DAF - SUPERVISAO GRÁFICA"
+  },
+  {
+    "codigo": "187",
+    "descricao": "SE - DAF - TECNOLOGIA E SEGURANÇA, PREVENÇÃO E COMBATE A INCÊNDIO"
+  },
+  {
+    "codigo": "188",
+    "descricao": "SE - DEB - ARQUIVO GERAL"
+  },
+  {
+    "codigo": "189",
+    "descricao": "SE - DEB - ASSESSORIA TÉCNICO PEDAGÓGICA (ASTP)"
+  },
+  {
+    "codigo": "190",
+    "descricao": "SE - DEB - ATP - COORDENADORIA EDUCAÇÃO ESPECIAL"
+  },
+  {
+    "codigo": "191",
+    "descricao": "SE - DEB - ATP - COORDENADORIA PROGRAMAS EMPREENDEDORISMO"
+  },
+  {
+    "codigo": "192",
+    "descricao": "SE - DEB - ATP - COORDENADORIA PROJETOS ESPECIAIS"
+  },
+  {
+    "codigo": "193",
+    "descricao": "SE - DEB - ATP - COORDENADORIA PUBLICAÇÕES TÉCNICAS"
+  },
+  {
+    "codigo": "194",
+    "descricao": "SE - DEB - BIBLIOTECA HÉLIO PINTO FERREIRA"
+  },
+  {
+    "codigo": "195",
+    "descricao": "SE - DEB - BIBLIOTECA JANSEN FILHO"
+  },
+  {
+    "codigo": "196",
+    "descricao": "SE - DEB - BIBLIOTECA JARDIM DAS FLORES"
+  },
+  {
+    "codigo": "197",
+    "descricao": "SE - DEB - BIBLIOTECA QUERO LER"
+  },
+  {
+    "codigo": "198",
+    "descricao": "SE - DEB - DAE - COORDENADORIA AUDIOVISUAL"
+  },
+  {
+    "codigo": "199",
+    "descricao": "SE - DEB - DAE - COORDENADORIA FORMAÇÃO EDUCACIONAL"
+  },
+  {
+    "codigo": "200",
+    "descricao": "EDITORA"
+  },
+  {
+    "codigo": "201",
+    "descricao": "SE - DEB - DEF - COORDENADORIA ORIENTAÇÃO EDUCACIONAL"
+  },
+  {
+    "codigo": "202",
+    "descricao": "SE - DEB - DEF - COORDENADORIA PEDAGÓGICA ANOS FINAIS"
+  },
+  {
+    "codigo": "203",
+    "descricao": "SE - DEB - DEF - COORDENADORIA PEDAGÓGICA ANOS INICIAIS"
+  },
+  {
+    "codigo": "204",
+    "descricao": "SE - DEB - DEF - COORDENADORIA PEDAGÓGICA EJA"
+  },
+  {
+    "codigo": "205",
+    "descricao": "SE - DEB - DEF - COORDENADORIA TÉCNICA ENSINO FUNDAMENTAL"
+  },
+  {
+    "codigo": "206",
+    "descricao": "SE - DEB - DEI - COORDENADORIA PEDAGÓGICA EDUCAÇÃO INFANTIL"
+  },
+  {
+    "codigo": "207",
+    "descricao": "SE - DEB - DEI - COORDENADORIA TÉCNICA EDUCAÇÃO INFANTIL"
+  },
+  {
+    "codigo": "208",
+    "descricao": "SE - DEB - DEI - MATERNO INFANTIL"
+  },
+  {
+    "codigo": "209",
+    "descricao": "SE - DEB - DIVISAO APOIO EDUCACIONAL"
+  },
+  {
+    "codigo": "210",
+    "descricao": "SE - DEB - DIVISAO DE EDUCAÇÃO INFANTIL (DEI)"
+  },
+  {
+    "codigo": "211",
+    "descricao": "SE - DEB - DIVISAO DE ENSINO FUNDAMENTAL (DEF)"
+  },
+  {
+    "codigo": "212",
+    "descricao": "SE - DEB - DIVISAO EDUCAÇÃO INFANTIL - FUNDEB"
+  },
+  {
+    "codigo": "213",
+    "descricao": "SE - DEB - DIVISAO ENSINO PROFISSIONALIZANTE"
+  },
+  {
+    "codigo": "214",
+    "descricao": "SE - DEB - DIVISAO MATERNO INFANTIL - FUNDEB"
+  },
+  {
+    "codigo": "215",
+    "descricao": "SE - DEB - EJA CICLO I - FUNDEB"
+  },
+  {
+    "codigo": "216",
+    "descricao": "SE - DEB - ENSINO FUNDAMENTAL - FUNDEB"
+  },
+  {
+    "codigo": "217",
+    "descricao": "(NÃO UTILIZAR) SE - DEI - BIBLIOTECA CASSIANO RICARDO"
+  },
+  {
+    "codigo": "218",
+    "descricao": "SE - DEI - COORDENADORIA EDUCAÇÃO ESPECIAL"
+  },
+  {
+    "codigo": "219",
+    "descricao": "SE - DEI - COORDENADORIA INFORMÁTICA  E GESTÃO EDUCACIONAL"
+  },
+  {
+    "codigo": "220",
+    "descricao": "SE - DEI - COORDENADORIA PEDAGÓGICA EDUCAÇÃO INFANTIL"
+  },
+  {
+    "codigo": "221",
+    "descricao": "SE - DEI - DIVISÃO EDUCAÇÃO EMPREENDEDORA"
+  },
+  {
+    "codigo": "222",
+    "descricao": "SE - DEI - DIVISAO ORIENT TEC EDUC BASIC"
+  },
+  {
+    "codigo": "223",
+    "descricao": "SE - DAF - DEPARTAMENTO ADMINISTRATIVO FINANCEIRO (DAG-APOIO GEST"
+  },
+  {
+    "codigo": "224",
+    "descricao": "SE - DEPARTAMENTO DE EDUCAÇÃO BÁSICA (DEB; 2024 DENF)"
+  },
+  {
+    "codigo": "226",
+    "descricao": "SE - EEI PEQUENÓPOLIS (CTA)"
+  },
+  {
+    "codigo": "227",
+    "descricao": "SECRETARIA DA JUVENTUDE"
+  },
+  {
+    "codigo": "228",
+    "descricao": "SE - EXTERNO - APAE"
+  },
+  {
+    "codigo": "229",
+    "descricao": "SE - EXTERNO - BEM TE VI"
+  },
+  {
+    "codigo": "230",
+    "descricao": "SE - EXTERNO - CASA DE BRINQUEDOS"
+  },
+  {
+    "codigo": "231",
+    "descricao": "SE - EXTERNO - CENTRO EDUCACIONAL FONTE VIDA"
+  },
+  {
+    "codigo": "232",
+    "descricao": "SE - EXTERNO - CEPHAS"
+  },
+  {
+    "codigo": "233",
+    "descricao": "SE - EXTERNO - FUNDHAS"
+  },
+  {
+    "codigo": "234",
+    "descricao": "SE - EXTERNO - FUNDO SOCIAL SOLIDARIEDADE"
+  },
+  {
+    "codigo": "235",
+    "descricao": "SE - EXTERNO - PRÓ VISÃO"
+  },
+  {
+    "codigo": "236",
+    "descricao": "SE - EXTERNO - PROJETO ADOLE SER"
+  },
+  {
+    "codigo": "237",
+    "descricao": "SE - EXTERNO - PROJETO AGENTE JOVEM"
+  },
+  {
+    "codigo": "238",
+    "descricao": "SE - EXTERNO - PROJETO AQUARELA"
+  },
+  {
+    "codigo": "239",
+    "descricao": "SE - EXTERNO - PROJETO OLHO MÁGICO"
+  },
+  {
+    "codigo": "240",
+    "descricao": "SE - EXTERNO - SORRI"
+  },
+  {
+    "codigo": "241",
+    "descricao": "SE - GC - CONVÊNIOS CECOI"
+  },
+  {
+    "codigo": "242",
+    "descricao": "SE - GC - SUPERVISÃO DE CONTRATO"
+  },
+  {
+    "codigo": "243",
+    "descricao": "SE - GC - TRANSPORTE ESCOLAR"
+  },
+  {
+    "codigo": "244",
+    "descricao": "SE - GCM"
+  },
+  {
+    "codigo": "245",
+    "descricao": "SE - GESTÃO DE CONTRATOS (GC)"
+  },
+  {
+    "codigo": "246",
+    "descricao": "SE - OUTROS SETORES FORA SME"
+  },
+  {
+    "codigo": "247",
+    "descricao": "SE - PROJETO DECOLAR LESTE"
+  },
+  {
+    "codigo": "248",
+    "descricao": "SE - PROJETO DECOLAR NORTE"
+  },
+  {
+    "codigo": "249",
+    "descricao": "SE - PROJETO DECOLAR SUL"
+  },
+  {
+    "codigo": "250",
+    "descricao": "SE - SECRETARIA ADJUNTA"
+  },
+  {
+    "codigo": "251",
+    "descricao": "SE - SECRETARIA GERAL (GABINETE)"
+  },
+  {
+    "codigo": "253",
+    "descricao": "EE MAJOR MIGUEL NAKED"
+  },
+  {
+    "codigo": "254",
+    "descricao": "NEI JARDIM MORUMBI"
+  },
+  {
+    "codigo": "255",
+    "descricao": "SECRETARIA DE ESPORTES E LAZER"
+  },
+  {
+    "codigo": "256",
+    "descricao": "SECRETARIA DE EVENTOS OFICIAIS E TURISMO"
+  },
+  {
+    "codigo": "257",
+    "descricao": "SECRETARIA DE SAÚDE"
+  },
+  {
+    "codigo": "273",
+    "descricao": "EMEI GALO BRANCO"
+  },
+  {
+    "codigo": "274",
+    "descricao": "SECRETARIA DE DESENVOLVIMENTO SOCIAL - SDS"
+  },
+  {
+    "codigo": "275",
+    "descricao": "SECRETARIA DE OBRAS"
+  },
+  {
+    "codigo": "293",
+    "descricao": "EE CÔNEGO JOSÉ FORTUNATO DA SILVA RAMOS"
+  },
+  {
+    "codigo": "313",
+    "descricao": "REPUBLICA FEDERATIVA DO BRASIL"
+  },
+  {
+    "codigo": "354",
+    "descricao": "CECOI - ACE - ASSOCIAÇÃO CRISTÃ EDUCACIONAL MEU SEGUNDO LAR"
+  },
+  {
+    "codigo": "356",
+    "descricao": "CECOI - AAMU - ASSOCIAÇÃO DE APOIO E ASSISTÊNCIA A MULHER"
+  },
+  {
+    "codigo": "357",
+    "descricao": "CECOI - ABAP - ASSOCIAÇÃO BENEFICIENTE ANDRÉ PUSPLATAIS"
+  },
+  {
+    "codigo": "358",
+    "descricao": "CECOI - ACEL - A.C. ESTÂNCIA DE LUZ LAR ESCOLAR MÃE MARIQUINHA"
+  },
+  {
+    "codigo": "359",
+    "descricao": "CECOI - AME - ASSISTÊNCIA MATERNAL ESPÍRITA"
+  },
+  {
+    "codigo": "360",
+    "descricao": "CECOI - AGMAC - ASSOCIAÇÃO GRUPO DE MÃES DE APOIO A CRECHE"
+  },
+  {
+    "codigo": "361",
+    "descricao": "CECOI - CASEPAFE - C.  A. SOCIAL EVANGÉLICA PALAVRA DA FÉ"
+  },
+  {
+    "codigo": "362",
+    "descricao": "CECOI - OBRA SOCIAL PIO XII MARIA IZABEL/ IPMMI - CASA SANTA INÊS"
+  },
+  {
+    "codigo": "363",
+    "descricao": "CECOI - CEPEM - CENTRO PROMOCIONAL DE EUGÊNIO DE MELO"
+  },
+  {
+    "codigo": "364",
+    "descricao": "CECOI - OBRA SOCIAL CÉLIO LEMOS"
+  },
+  {
+    "codigo": "365",
+    "descricao": "CECOI - CRECHE PATRONATO NOSSA SENHORA DE APARECIDA"
+  },
+  {
+    "codigo": "367",
+    "descricao": "CECOI - FEDERAÇÃO ESPÍRITA DO ESTADO DE SÃO PAULO CRECHE MEIMEI"
+  },
+  {
+    "codigo": "368",
+    "descricao": "CECOI - UNIVAP CRECHE DO CAMPO DOS ALEMÃES"
+  },
+  {
+    "codigo": "369",
+    "descricao": "CECOI - UNIVAP JARDIM TELESPARK"
+  },
+  {
+    "codigo": "370",
+    "descricao": "CECOI - IRMÃS CARMELITAS/OBRA MADRE Mª TERESA D JESUS EUCARÍSTICO"
+  },
+  {
+    "codigo": "371",
+    "descricao": "CECOI - OBRAS ASSISTÊNCIAIS IRMÃ CLARA"
+  },
+  {
+    "codigo": "376",
+    "descricao": "VEREADOR JOÃO DAS MERCES/ TAMPÃO"
+  },
+  {
+    "codigo": "377",
+    "descricao": "CECOI - OBRA SOCIAL E ASSISTENCIAL NOSSA SENHORA AUXILIADORA"
+  },
+  {
+    "codigo": "378",
+    "descricao": "CECOI - A. DE AMPARO A CRIANÇA E ADOLESCENTE PEQUENA ESTRELA"
+  },
+  {
+    "codigo": "379",
+    "descricao": "CECOI - OBRA SOCIAL E ASSISTENCIAL CORAÇÃO DE MARIA"
+  },
+  {
+    "codigo": "380",
+    "descricao": "CECOI - ASSOCIAÇÃO EDUCACIONAL INFANTIL SANTA RITA REGIÃO NORTE"
+  },
+  {
+    "codigo": "381",
+    "descricao": "CECOI - SEARA ESPÍRITA BEZERRA DE MENEZES CRECHE ANÁLIA FRANCO"
+  },
+  {
+    "codigo": "382",
+    "descricao": "CECOI - SOCIEDADE BENEFICIENTE SÃO MATEUS"
+  },
+  {
+    "codigo": "383",
+    "descricao": "CECOI - FUNDHAS - EMEF DOM PEDRO DE ALCÂNTARA"
+  },
+  {
+    "codigo": "384",
+    "descricao": "CECOI - FUNDHAS - EMEF ÁLVARO GONÇALVES"
+  },
+  {
+    "codigo": "385",
+    "descricao": "CECOI - LÍRIOS DO CAMPO CRECHE CONVÊNIADA JARDIM SÃO JOSÉ"
+  },
+  {
+    "codigo": "386",
+    "descricao": "CECOI - LÍRIOS DO CAMPO TORRÃO DE OURO E MONTE CASTELO"
+  },
+  {
+    "codigo": "387",
+    "descricao": "CECOI - LÍRIOS DO CAMPO JARDIM SOUTO E JARDIM SÃO JUDAS"
+  },
+  {
+    "codigo": "388",
+    "descricao": "CECOI - ÉDEN LAR"
+  },
+  {
+    "codigo": "447",
+    "descricao": "MINISTÉRIO PÚBLICO DO TRABALHO"
+  },
+  {
+    "codigo": "448",
+    "descricao": "ITA - INSTITUTO TÉCNICO AEROESPACIAL"
+  },
+  {
+    "codigo": "465",
+    "descricao": "MINISTÉRIO DA EDUCAÇÃO DE SÃO PAULO"
+  },
+  {
+    "codigo": "485",
+    "descricao": "MINISTÉRIO DA FAZENDA"
+  },
+  {
+    "codigo": "486",
+    "descricao": "FAMME"
+  },
+  {
+    "codigo": "488",
+    "descricao": "EE CAMPO DOS ALEMÃES"
+  },
+  {
+    "codigo": "490",
+    "descricao": "VEREADOR ITAMAR COPPIO"
+  },
+  {
+    "codigo": "507",
+    "descricao": "FADENP"
+  },
+  {
+    "codigo": "510",
+    "descricao": "SECRETARIA DE TRANSPORTES"
+  },
+  {
+    "codigo": "511",
+    "descricao": "SE - COORDENADORIA DE ORÇAMENTO E COMPRAS"
+  },
+  {
+    "codigo": "512",
+    "descricao": "CORREIOS"
+  },
+  {
+    "codigo": "513",
+    "descricao": "SECRETARIA DE SERVIÇOS GERAIS"
+  },
+  {
+    "codigo": "517",
+    "descricao": "SECRETARIA DA FAZENDA"
+  },
+  {
+    "codigo": "518",
+    "descricao": "SENAC"
+  },
+  {
+    "codigo": "519",
+    "descricao": "NEI PROF ADÃO PLÁCIDO DE OLIVEIRA"
+  },
+  {
+    "codigo": "520",
+    "descricao": "NEI JARDIM CASTANHEIRAS"
+  },
+  {
+    "codigo": "521",
+    "descricao": "NEI ÉDEN LAR DAS CRIANÇAS"
+  },
+  {
+    "codigo": "522",
+    "descricao": "NEI MONTE CASTELO (DENOMINADA NEI ELZA MARIA DIAS MENDONÇA-131)"
+  },
+  {
+    "codigo": "524",
+    "descricao": "EMEI SÃO JUDAS TADEU"
+  },
+  {
+    "codigo": "525",
+    "descricao": "NEI BOSQUE DOS EUCALÍPITOS I"
+  },
+  {
+    "codigo": "526",
+    "descricao": "CONESP - COMPANHIA DE CONSTRUÇÕES DO ESTADO DE SÃO PAULO"
+  },
+  {
+    "codigo": "527",
+    "descricao": "EE ARLETE ELOIZA FERREIRA TEIXEIRA"
+  },
+  {
+    "codigo": "528",
+    "descricao": "EE JOÃO FERREIRA DOS SANTOS"
+  },
+  {
+    "codigo": "530",
+    "descricao": "EE ALCEU MAYNARD ARAÚJO"
+  },
+  {
+    "codigo": "547",
+    "descricao": "IGREJA / PARÓQUIA / CAPELA"
+  },
+  {
+    "codigo": "548",
+    "descricao": "VEREADOR SANTOS NEVES"
+  },
+  {
+    "codigo": "549",
+    "descricao": "VEREADOR JOÃO BEZERRA"
+  },
+  {
+    "codigo": "550",
+    "descricao": "TIRO DE GUERRA"
+  },
+  {
+    "codigo": "551",
+    "descricao": "NEI DO BUQUIRINHA"
+  },
+  {
+    "codigo": "552",
+    "descricao": "VEREADOR HÉLIO NISHIMOTO"
+  },
+  {
+    "codigo": "553",
+    "descricao": "POLIEDRO - SISTEMA DE ENSINO POLIEDRO"
+  },
+  {
+    "codigo": "554",
+    "descricao": "SINDICATOS"
+  },
+  {
+    "codigo": "555",
+    "descricao": "VEREADOR WALTER HAYASHI"
+  },
+  {
+    "codigo": "556",
+    "descricao": "PROMOTOR DE JUSTIÇA"
+  },
+  {
+    "codigo": "557",
+    "descricao": "TECELAGEM PARAÍBA"
+  },
+  {
+    "codigo": "558",
+    "descricao": "SOCIEDADE DE SÃO VICENTE DE PAULA"
+  },
+  {
+    "codigo": "559",
+    "descricao": "VEREADOR FLORIVALDO ROCHA"
+  },
+  {
+    "codigo": "560",
+    "descricao": "DIRETORIA DE ENSINO DE SÃO JOSÉ DOS CAMPOS"
+  },
+  {
+    "codigo": "561",
+    "descricao": "VEREADOR VALDIR ALVARENGA"
+  },
+  {
+    "codigo": "562",
+    "descricao": "VEREADOR OSMAR FERREIRA"
+  },
+  {
+    "codigo": "563",
+    "descricao": "VEREADOR DILERMANDO - DIÉ"
+  },
+  {
+    "codigo": "564",
+    "descricao": "SECRETARIA DE ESTADO DOS NEGÓCIOS DA SEGURANÇA PÚBLICA"
+  },
+  {
+    "codigo": "565",
+    "descricao": "INSTITUTO DE PREVIDÊNCIA DO SERVIDOR MUNICIPAL"
+  },
+  {
+    "codigo": "566",
+    "descricao": "VEREADOR ALEXANDRE DA FARMÁCIA"
+  },
+  {
+    "codigo": "568",
+    "descricao": "FARMÁCIA COMUNITÁRIA"
+  },
+  {
+    "codigo": "570",
+    "descricao": "EE DORIVAL MONTEIRO DE OLIVEIRA"
+  },
+  {
+    "codigo": "571",
+    "descricao": "EE DOMINGOS DE MACEDO CUSTÓDIO"
+  },
+  {
+    "codigo": "572",
+    "descricao": "EE WILMA RAGAZZI BOCCARDO"
+  },
+  {
+    "codigo": "573",
+    "descricao": "EE PEDRO MASCARENHAS"
+  },
+  {
+    "codigo": "574",
+    "descricao": "CARTÓRIO ELEITORAL"
+  },
+  {
+    "codigo": "575",
+    "descricao": "EE JOSÉ FREDERICO MARQUES"
+  },
+  {
+    "codigo": "576",
+    "descricao": "CECOI - CIA DE TEATRO ESTRANHOS MAMULENGOS"
+  },
+  {
+    "codigo": "578",
+    "descricao": "EMEF RIO COMPRIDO"
+  },
+  {
+    "codigo": "579",
+    "descricao": "VEREADOR MAURO KANO"
+  },
+  {
+    "codigo": "580",
+    "descricao": "EE JUVENAL MACHADO DE ARAÚJO"
+  },
+  {
+    "codigo": "581",
+    "descricao": "SOCIEDADE AMIGOS DO BAIRRO - SAB"
+  },
+  {
+    "codigo": "582",
+    "descricao": "EE ANA CÂNDIDA DE BARROS MOLINA"
+  },
+  {
+    "codigo": "583",
+    "descricao": "EE PEDRO MAZZA"
+  },
+  {
+    "codigo": "584",
+    "descricao": "DELEGACIA REGIONAL DE ESPORTES E RECREAÇÃO"
+  },
+  {
+    "codigo": "585",
+    "descricao": "EE EUNICE CORDEIRO DOS SANTOS RODRIGUES"
+  },
+  {
+    "codigo": "586",
+    "descricao": "VEREADOR SERGINHO DO FÓRUM"
+  },
+  {
+    "codigo": "588",
+    "descricao": "MUNÍCIPE"
+  },
+  {
+    "codigo": "590",
+    "descricao": "FUNDHAS - FUNDAÇÃO HÉLIO AUGUSTO DE SOUZA"
+  },
+  {
+    "codigo": "591",
+    "descricao": "OBRA SOCIAL E ASSISTENCIAL MAGNIFICAT"
+  },
+  {
+    "codigo": "592",
+    "descricao": "DIOCESE"
+  },
+  {
+    "codigo": "593",
+    "descricao": "ASSOCIAÇÃO - SETOR EXTERNO"
+  },
+  {
+    "codigo": "594",
+    "descricao": "ADMINISTRADOR DISTRITAL / SUB PREFEITURA"
+  },
+  {
+    "codigo": "601",
+    "descricao": "SECRETARIA DE GOVERNO"
+  },
+  {
+    "codigo": "602",
+    "descricao": "EE YOSHIYA TAKAOKA"
+  },
+  {
+    "codigo": "603",
+    "descricao": "SECRETARIA DE ADMINISTRAÇÃO"
+  },
+  {
+    "codigo": "604",
+    "descricao": "SE - ASSESSORIA TÉCNICA / PROBISS / BOLSA FAMÍLIA"
+  },
+  {
+    "codigo": "605",
+    "descricao": "SESI - SERVIÇO SOCIAL DA INDÚSTRIA"
+  },
+  {
+    "codigo": "606",
+    "descricao": "LAR NOSSA SENHORA DA SALETTE"
+  },
+  {
+    "codigo": "607",
+    "descricao": "EE JOSÉ FORTUNATO DA SILVA RAMOS"
+  },
+  {
+    "codigo": "608",
+    "descricao": "EE MARIA APARECIDA VERÍSSIMO MADUREIRA"
+  },
+  {
+    "codigo": "609",
+    "descricao": "EE PROF XENOFONTE STRABÃO DE CASTRO"
+  },
+  {
+    "codigo": "610",
+    "descricao": "ASSEMBLÉIA LEGISLATIVO DE SÃO PAULO E BRASÍLIA"
+  },
+  {
+    "codigo": "611",
+    "descricao": "EE JÚLIA BERNARDES RODRIGUES"
+  },
+  {
+    "codigo": "612",
+    "descricao": "JOHNSON E JOHNSON"
+  },
+  {
+    "codigo": "613",
+    "descricao": "BANDEIRANTES ENERGIA S.A"
+  },
+  {
+    "codigo": "621",
+    "descricao": "EE JENI DAVI BACHA"
+  },
+  {
+    "codigo": "622",
+    "descricao": "PROCURADOR DO MUNICÍPIO / PROCURADORIA JURÍDICA"
+  },
+  {
+    "codigo": "624",
+    "descricao": "SECRETARIA DE DESENVOLVIMENTO ECONÔMICO"
+  },
+  {
+    "codigo": "625",
+    "descricao": "RECEITA FEDERAL"
+  },
+  {
+    "codigo": "626",
+    "descricao": "SECRETARIA DE ASSUNTOS JURÍDICOS"
+  },
+  {
+    "codigo": "627",
+    "descricao": "SECRETARIA DE SERVIÇOS MUNICIPAIS"
+  },
+  {
+    "codigo": "631",
+    "descricao": "SECRETARIA DE MEIO AMBIENTE"
+  },
+  {
+    "codigo": "633",
+    "descricao": "EE MARIA DOLORES VERÍSSIMO MADUREIRA"
+  },
+  {
+    "codigo": "636",
+    "descricao": "EE IRACEMA RIBEIRO DE FREITAS"
+  },
+  {
+    "codigo": "638",
+    "descricao": "EE MALBA THEREZA FERRAZ CAMPANER"
+  },
+  {
+    "codigo": "640",
+    "descricao": "DIVISÃO DE TRÁFEGO"
+  },
+  {
+    "codigo": "664",
+    "descricao": "(NÃO UTILIZAR) BIBLIOTECA PÚBLICA CASSIANO RICARDO"
+  },
+  {
+    "codigo": "667",
+    "descricao": "EE ADÉLIA CHUCRI NEME"
+  },
+  {
+    "codigo": "684",
+    "descricao": "GABINETE DO PREFEITO"
+  },
+  {
+    "codigo": "705",
+    "descricao": "PROCURADORIA DO PATRIMÔNIO IMOBILIÁRIO"
+  },
+  {
+    "codigo": "708",
+    "descricao": "CONSELHO TUTELAR"
+  },
+  {
+    "codigo": "710",
+    "descricao": "VEREADOR CRISTIANO FERREIRA"
+  },
+  {
+    "codigo": "729",
+    "descricao": "PROCURADOR DO ESTADO"
+  },
+  {
+    "codigo": "730",
+    "descricao": "FUNDAP"
+  },
+  {
+    "codigo": "731",
+    "descricao": "CMDCA - CONSELHO MUNICIPAL DOS DIREITOS DAS CRIANÇAS/ADOLESCENTE"
+  },
+  {
+    "codigo": "750",
+    "descricao": "URBAM"
+  },
+  {
+    "codigo": "751",
+    "descricao": "VARA DA INFÂNCIA E JUVENTUDE DA COMARCA DE SÃO JOSÉ DOS CAMPOS"
+  },
+  {
+    "codigo": "752",
+    "descricao": "C T A - CENTRO TÉNICO AEROESPACIAL"
+  },
+  {
+    "codigo": "753",
+    "descricao": "COLÉGIO ANGLO - CASSIANO RICARDO"
+  },
+  {
+    "codigo": "755",
+    "descricao": "SOCIEDADE BENEFICENTE DEIXE DE FUMAR EM 5 DIAS"
+  },
+  {
+    "codigo": "756",
+    "descricao": "UNESCO"
+  },
+  {
+    "codigo": "757",
+    "descricao": "MINISTÉRIO DA EDUCAÇÃO - GOVERNO ESTADUAL/FEDERAL - MEC"
+  },
+  {
+    "codigo": "763",
+    "descricao": "SACOBRAM"
+  },
+  {
+    "codigo": "768",
+    "descricao": "EE BENEDITO MATARAZZO"
+  },
+  {
+    "codigo": "769",
+    "descricao": "EE MARIA LUIZA DE GUIMARÃES MEDEIROS"
+  },
+  {
+    "codigo": "771",
+    "descricao": "EMEF PROF MARIA AUGUSTA MOREIRA DA COSTA"
+  },
+  {
+    "codigo": "773",
+    "descricao": "EE FELÍCIO SAVASTANO"
+  },
+  {
+    "codigo": "774",
+    "descricao": "EE DINORÁ PEREIRA RAMOS BRITO"
+  },
+  {
+    "codigo": "775",
+    "descricao": "EE MOABE CURY"
+  },
+  {
+    "codigo": "776",
+    "descricao": "EE OLYMPIO CATÃO"
+  },
+  {
+    "codigo": "779",
+    "descricao": "ASSOCIAÇÃO EDUCACIONAL"
+  },
+  {
+    "codigo": "781",
+    "descricao": "EE UBIRAJARA BERNA DE CHIARA"
+  },
+  {
+    "codigo": "782",
+    "descricao": "COLÉGIO INSTITUTO SÃO JOSÉ"
+  },
+  {
+    "codigo": "785",
+    "descricao": "MINISTÉRIO PÚBLICO DO ESTADO DE SÃO PAULO"
+  },
+  {
+    "codigo": "786",
+    "descricao": "EE CAMPOS DE SÃO JOSÉ"
+  },
+  {
+    "codigo": "787",
+    "descricao": "EE DIRCE ELIAS"
+  },
+  {
+    "codigo": "788",
+    "descricao": "EE JOÃO MOROTTI FILHO"
+  },
+  {
+    "codigo": "789",
+    "descricao": "EE GERALDINA COELHO MONTEIRO"
+  },
+  {
+    "codigo": "791",
+    "descricao": "LIONS CLUBE DE SÃO JOSÉ DOS CAMPOS"
+  },
+  {
+    "codigo": "792",
+    "descricao": "TELEFÔNICA/TELESP"
+  },
+  {
+    "codigo": "794",
+    "descricao": "EMEF PROFª MARTHA ABIB CASTANHO"
+  },
+  {
+    "codigo": "795",
+    "descricao": "EE RUTH COUTINHO SOBREIRO"
+  },
+  {
+    "codigo": "797",
+    "descricao": "EE JOAQUIM ANDRADE MEIRELLES"
+  },
+  {
+    "codigo": "798",
+    "descricao": "EE ANTONIO JOSÉ DE SIQUEIRA"
+  },
+  {
+    "codigo": "800",
+    "descricao": "UNDIME-SP - UNIÃO NACIONAL DOS DIRIGENTES MUNICIPAIS DE EDUCAÇÃO"
+  },
+  {
+    "codigo": "801",
+    "descricao": "CONSULTORIA EM POLÍTICAS PÚBLICAS - CPP"
+  },
+  {
+    "codigo": "803",
+    "descricao": "EE MARIA APARECIDA SANTOS RONCONI"
+  },
+  {
+    "codigo": "806",
+    "descricao": "EMPRESA DE ÔNIBUS"
+  },
+  {
+    "codigo": "807",
+    "descricao": "EE NAJLA JAMILE SANTOS MACHADO DE ARAÚJO"
+  },
+  {
+    "codigo": "808",
+    "descricao": "FÁBRICAS/INDÚSTRIAS"
+  },
+  {
+    "codigo": "826",
+    "descricao": "EE GALO BRANCO"
+  },
+  {
+    "codigo": "827",
+    "descricao": "EE FRANCISCO PEREIRA SA SILVA"
+  },
+  {
+    "codigo": "828",
+    "descricao": "EE JOÃO CURSINO"
+  },
+  {
+    "codigo": "833",
+    "descricao": "SERVIDORES MUNICIPAIS"
+  },
+  {
+    "codigo": "835",
+    "descricao": "SOCIEDADE CIVIL NANTENEDORA DO LAR NOSSA SENHORA DA SALETTE"
+  },
+  {
+    "codigo": "856",
+    "descricao": "ASSOCIAÇÃO DE PROF. E SERVIDORES PÚBLICOS DE SP - APROESP/APEOESP"
+  },
+  {
+    "codigo": "857",
+    "descricao": "TRIBUNAL REGIONAL ELEITORAL SJC"
+  },
+  {
+    "codigo": "859",
+    "descricao": "COLÉGIO TABLEAU"
+  },
+  {
+    "codigo": "862",
+    "descricao": "FACULDADES / UNIVERSIDADES"
+  },
+  {
+    "codigo": "895",
+    "descricao": "COLÉGIO INTEGRADO OBJETIVO"
+  },
+  {
+    "codigo": "915",
+    "descricao": "VEREADORA DULCE RITA"
+  },
+  {
+    "codigo": "936",
+    "descricao": "COLÉGIO IGUATEMY"
+  },
+  {
+    "codigo": "937",
+    "descricao": "ASSEM- ASSOCIAÇÃO DOS SERVIDORES MUNICIPAIS"
+  },
+  {
+    "codigo": "942",
+    "descricao": "CRECHE CANTINHO DOS ANJOS"
+  },
+  {
+    "codigo": "949",
+    "descricao": "PROJETOS PROMOCIONAIS -  ARGUS"
+  },
+  {
+    "codigo": "950",
+    "descricao": "SABESP"
+  },
+  {
+    "codigo": "954",
+    "descricao": "PHILIPS"
+  },
+  {
+    "codigo": "957",
+    "descricao": "FUNDAÇÃO CULTURAL CASSIANO RICARDO"
+  },
+  {
+    "codigo": "964",
+    "descricao": "INSTITUTO DE PSICOLOGIA- PRÉ ESCOLA TERAPÊUTICA LUGAR DE VIDA"
+  },
+  {
+    "codigo": "968",
+    "descricao": "VOTORANTIM CELULOSE E PAPEL - VCP"
+  },
+  {
+    "codigo": "976",
+    "descricao": "CONSELHO ESTADUAL DE EDUCAÇÃO"
+  },
+  {
+    "codigo": "978",
+    "descricao": "TRIBUNAL DE JUSTIÇA"
+  },
+  {
+    "codigo": "980",
+    "descricao": "SECRETARIA DE JUVENTUDE"
+  },
+  {
+    "codigo": "982",
+    "descricao": "ESCOLA TÉCNICA - ETEP"
+  },
+  {
+    "codigo": "992",
+    "descricao": "GRUPO GERAÇÃO SAÚDE"
+  },
+  {
+    "codigo": "993",
+    "descricao": "CEPHAS - CENTRO DE EDUCAÇÃO PROFISSIONAL HÉLIO AUGUSTO DE SOUZA"
+  },
+  {
+    "codigo": "994",
+    "descricao": "INSTITUTO DE PESQUISAS ESPACIAIS - INPE"
+  },
+  {
+    "codigo": "1081",
+    "descricao": "VEREADOR LINO BISPO"
+  },
+  {
+    "codigo": "1083",
+    "descricao": "VEREADOR MIRANDA UEB"
+  },
+  {
+    "codigo": "1084",
+    "descricao": "IMI PROF DIMÉIA MARIA FERREIRA DINIZ ENDO"
+  },
+  {
+    "codigo": "1095",
+    "descricao": "NEI BAIRRO DOS FREITAS"
+  },
+  {
+    "codigo": "1096",
+    "descricao": "NEI ALTO DA PONTE"
+  },
+  {
+    "codigo": "1097",
+    "descricao": "INSPESEL - INSPETOR DE SEGURANÇA ELETRÔNICA"
+  },
+  {
+    "codigo": "1098",
+    "descricao": "IMI CAMPO DOS ALEMÃES"
+  },
+  {
+    "codigo": "1100",
+    "descricao": "NEI JARDIM DAS FLORES"
+  },
+  {
+    "codigo": "1101",
+    "descricao": "IMI PROF MARIA DE LOURDES CONSTANTINO"
+  },
+  {
+    "codigo": "1102",
+    "descricao": "SE - DEB - COORDENADORA PEDAGÓGICA DO CECOI"
+  },
+  {
+    "codigo": "1123",
+    "descricao": "VEREADOR CARLINHOS ALMEIDA"
+  },
+  {
+    "codigo": "1125",
+    "descricao": "EMEI DA VILA SÃO PEDRO (EMEI SONIA MARA RAMOS)"
+  },
+  {
+    "codigo": "1162",
+    "descricao": "VEREADOR JUVENIL SILVÉRIO"
+  },
+  {
+    "codigo": "1183",
+    "descricao": "EMEI PROF JOSÉ ANTERO C. DOS SANTOS"
+  },
+  {
+    "codigo": "1202",
+    "descricao": "EMEF PROF OLGA FRANCO CUSTÓDIO"
+  },
+  {
+    "codigo": "1203",
+    "descricao": "NEI JARDIM PARAÍSO DO SOL"
+  },
+  {
+    "codigo": "1223",
+    "descricao": "SECRETARIA DE DEFESA DO CIDADÃO - SEDC"
+  },
+  {
+    "codigo": "1243",
+    "descricao": "SECRETARIA DO GOVERNO DO ESTADO DE SÃO PAULO"
+  },
+  {
+    "codigo": "1264",
+    "descricao": "SUPREMO TRIBUNAL FEDERAL"
+  },
+  {
+    "codigo": "1266",
+    "descricao": "CUT - CENTRAL ÚNICA DOS TRABALHADORES"
+  },
+  {
+    "codigo": "1267",
+    "descricao": "PREFEITURA MUNICIPAL"
+  },
+  {
+    "codigo": "1283",
+    "descricao": "CÂMARA MUNICIPAL"
+  },
+  {
+    "codigo": "1286",
+    "descricao": "FUNDO SOCIAL DE SOLIDARIEDADE"
+  },
+  {
+    "codigo": "1306",
+    "descricao": "SAJ- PROCURADORIA TRABALHISTA"
+  },
+  {
+    "codigo": "1323",
+    "descricao": "JUIZ DE DIREITO"
+  },
+  {
+    "codigo": "1344",
+    "descricao": "SECRETARIA MUNICIPAL DE EDUCAÇÃO"
+  },
+  {
+    "codigo": "1351",
+    "descricao": "JUSTIÇA ELEITORAL DO ESTADO DE SÃO PAULO"
+  },
+  {
+    "codigo": "1356",
+    "descricao": "EE DR.RUI RODRIGUES DÓRIA"
+  },
+  {
+    "codigo": "1359",
+    "descricao": "SESC-SP SERVIÇO SOCIAL DO COMÉRCIO"
+  },
+  {
+    "codigo": "1371",
+    "descricao": "ASSOCIAÇÃO COMERCIAL E INDUSTRIAL - ACI"
+  },
+  {
+    "codigo": "1372",
+    "descricao": "PROGRAMA AQUARELA"
+  },
+  {
+    "codigo": "1376",
+    "descricao": "PREVIDÊNCIA SOCIAL"
+  },
+  {
+    "codigo": "1378",
+    "descricao": "CENTRO ESTADUAL DE EDUCAÇÃO TECNOLÓGICA PAULA SOUZA/CEETEPS/FATEC"
+  },
+  {
+    "codigo": "1392",
+    "descricao": "SEBRAE - SP"
+  },
+  {
+    "codigo": "1394",
+    "descricao": "EMBRAER"
+  },
+  {
+    "codigo": "1433",
+    "descricao": "VEREADOR JORLEY AMARAL"
+  },
+  {
+    "codigo": "1453",
+    "descricao": "VEREADOR CRISTOVÃO CONÇALVES"
+  },
+  {
+    "codigo": "1455",
+    "descricao": "VEREADOR ALOISIO PETITI"
+  },
+  {
+    "codigo": "1456",
+    "descricao": "SECRETARIA DE HABITAÇÃO"
+  },
+  {
+    "codigo": "1476",
+    "descricao": "VEREADOR GIBA RIBEIRO - PT"
+  },
+  {
+    "codigo": "1496",
+    "descricao": "VEREADOR ROBERTO BARBOSA"
+  },
+  {
+    "codigo": "1516",
+    "descricao": "EE MAJOR AVIADOR JOSÉ MARIOTTO FERREIRA"
+  },
+  {
+    "codigo": "1576",
+    "descricao": "TRIBUNAL INTERDIOCESANO DE APARECIDA"
+  },
+  {
+    "codigo": "1597",
+    "descricao": "CINEMARK"
+  },
+  {
+    "codigo": "1618",
+    "descricao": "ERICSSON DO BRASIL - COMÉRCIO E INDÚSTRIA S. A."
+  },
+  {
+    "codigo": "1676",
+    "descricao": "ESCOLAS ESTADUAIS"
+  },
+  {
+    "codigo": "1677",
+    "descricao": "EE HENRIQUETA COSTA PORTO"
+  },
+  {
+    "codigo": "1678",
+    "descricao": "EE JOSÉ ANTONIO COUTINHO CONDINO"
+  },
+  {
+    "codigo": "1680",
+    "descricao": "EE JARDIM CASTANHEIRAS"
+  },
+  {
+    "codigo": "1681",
+    "descricao": "EE MARILDA FERREIRA BRITO  BARROS PEREIRA"
+  },
+  {
+    "codigo": "1682",
+    "descricao": "EE JORGE BARBOSA"
+  },
+  {
+    "codigo": "1683",
+    "descricao": "EE FAZENDA MONTES CLAROS"
+  },
+  {
+    "codigo": "1684",
+    "descricao": "EE BAIRRO DO BENGALAR"
+  },
+  {
+    "codigo": "1685",
+    "descricao": "EE BAIRRO SANTA LUZIA"
+  },
+  {
+    "codigo": "1686",
+    "descricao": "EE BAIRRO BOM SUCESSO"
+  },
+  {
+    "codigo": "1687",
+    "descricao": "EE BAIRRO RIO DAS COBRAS"
+  },
+  {
+    "codigo": "1716",
+    "descricao": "JORNAL"
+  },
+  {
+    "codigo": "1736",
+    "descricao": "EE SUELY ANTUNES DE MELLO"
+  },
+  {
+    "codigo": "1738",
+    "descricao": "EE EUCLIDES BUENO MIRAGAIA"
+  },
+  {
+    "codigo": "1776",
+    "descricao": "SUPERVISÃO DE ATENDIMENTO 156"
+  },
+  {
+    "codigo": "1817",
+    "descricao": "INSTITUTO  EMBRAER DE EDUCAÇÃO E PESQUISA"
+  },
+  {
+    "codigo": "1838",
+    "descricao": "CECOI - A. DE ASSISTÊNCIA À CRIANÇA SER FELIZ"
+  },
+  {
+    "codigo": "1858",
+    "descricao": "CECOI - INSTITUTO MAMULENGO SOCIAL"
+  },
+  {
+    "codigo": "1882",
+    "descricao": "OBRA SOCIAL E ASSISTENCIAL SANTA INES"
+  },
+  {
+    "codigo": "1900",
+    "descricao": "FUNDAÇÃO LEGIÃO BRASILEIRA DE ASSISTÊNCIA - LBA"
+  },
+  {
+    "codigo": "1901",
+    "descricao": "PRÓ-VISÃO CENTRO DE PREVENÇÃO E REABILITAÇÃO DE DEF. DA VISÃO"
+  },
+  {
+    "codigo": "1902",
+    "descricao": "JUSTIÇA FEDERAL"
+  },
+  {
+    "codigo": "1944",
+    "descricao": "SECRETARIA DE PLANEJAMENTO URBANO"
+  },
+  {
+    "codigo": "1968",
+    "descricao": "PROJETO OLHO MÁGICO"
+  },
+  {
+    "codigo": "1988",
+    "descricao": "SENAI - SERVIÇO NACIONAL DE APRENDIZAGEM INDUSTRIAL"
+  },
+  {
+    "codigo": "2007",
+    "descricao": "ESCOLAS MUNICIPAIS"
+  },
+  {
+    "codigo": "2051",
+    "descricao": "REDE VANGUARDA"
+  },
+  {
+    "codigo": "2071",
+    "descricao": "TRIBUNAL DE CONTAS DO ESTADO DE SÃO PAULO"
+  },
+  {
+    "codigo": "2108",
+    "descricao": "CECOI - ASSOCIAÇÃO BENEFICENTE ANDRÉ PUSPLATAIS"
+  },
+  {
+    "codigo": "2109",
+    "descricao": "CECOI - INSTITUTO DE AÇÃO SOCIAL AMIGOS DA CIDADE"
+  },
+  {
+    "codigo": "2110",
+    "descricao": "CECOI - ASSOCIAÇÃO ÁGAPE PARA EDUCAÇÃO ESPECIAL"
+  },
+  {
+    "codigo": "2111",
+    "descricao": "CECOI - OBRA SOCIAL E ASSISTENCIAL MARIA TERESA DE SÃO JOSÉ"
+  },
+  {
+    "codigo": "2112",
+    "descricao": "EMEF PROF POSSIDÔNIO SALLES"
+  },
+  {
+    "codigo": "2114",
+    "descricao": "EMEF EMMANUEL ANTÔNIO DOS SANTOS"
+  },
+  {
+    "codigo": "2115",
+    "descricao": "EMEF PROF HÉLIO WALTER BEVILACQUA"
+  },
+  {
+    "codigo": "2116",
+    "descricao": "DEPARTAMENTO DE EDUCAÇÃO INTEGRADA"
+  },
+  {
+    "codigo": "2118",
+    "descricao": "ROTARY CLUB DE SÃO JOSÉ DOS CAMPOS"
+  },
+  {
+    "codigo": "2120",
+    "descricao": "LAB. DE ED. DIGITAL E INTERATIVA PROF. EDUARDO AUGUSTO FERNANDES"
+  },
+  {
+    "codigo": "2122",
+    "descricao": "IMI PROF ELIANA DE OLIVEIRA SANTOS CRUZ"
+  },
+  {
+    "codigo": "2124",
+    "descricao": "IMI HELENA FERREIRA"
+  },
+  {
+    "codigo": "2125",
+    "descricao": "IMI HELENA VAZ DE LIMA SOLIVA."
+  },
+  {
+    "codigo": "2126",
+    "descricao": "CRECHE PROF CIDINHA CANDELARIA OTTOBONI"
+  },
+  {
+    "codigo": "2130",
+    "descricao": "NEI OSWALDO CÓPPIO"
+  },
+  {
+    "codigo": "2131",
+    "descricao": "EMEI PROF LOURDES DE OLIVEIRA MENDES"
+  },
+  {
+    "codigo": "2132",
+    "descricao": "EMEI PROF LÚCIA MARIA DO AMARAL"
+  },
+  {
+    "codigo": "2134",
+    "descricao": "EMEI PROF VALÉRIA APARECIDA DE ALMEIDA VANCONCELOS"
+  },
+  {
+    "codigo": "2136",
+    "descricao": "NEI PROF ILZA NASCIMENTO PINTUS"
+  },
+  {
+    "codigo": "2138",
+    "descricao": "CEDIN - CENTRO DE EDUCAÇÃO INFANTIL"
+  },
+  {
+    "codigo": "2140",
+    "descricao": "CEDEMP - CENTRO DE EDUCAÇÃO EMPREENDEDORA - CÓDIGO EM DESUSO"
+  },
+  {
+    "codigo": "2142",
+    "descricao": "CECOI - AVAPE - A. PARA VALORIZAÇÃO DE PESSOAS COM DEFICIÊNCIA"
+  },
+  {
+    "codigo": "2143",
+    "descricao": "CECOI - INSTITUTO CHÃO VERDE"
+  },
+  {
+    "codigo": "2144",
+    "descricao": "FUNDHAS - ROSA TOMITA"
+  },
+  {
+    "codigo": "2145",
+    "descricao": "FUNDHAS - MOACYR BENEDICTO DE SOUZA"
+  },
+  {
+    "codigo": "2146",
+    "descricao": "SE - ASSESSORIA TÉCNICA DE PLANEJAMENTO"
+  },
+  {
+    "codigo": "2148",
+    "descricao": "EE ILZA IRMA MOELLER COPPIO"
+  },
+  {
+    "codigo": "2149",
+    "descricao": "EE FRANCISCO JOÃO LEME"
+  },
+  {
+    "codigo": "2150",
+    "descricao": "EE SANTANA DO PARAÍBA"
+  },
+  {
+    "codigo": "2152",
+    "descricao": "EE VILMAR LOURENÇO SANTANA"
+  },
+  {
+    "codigo": "2154",
+    "descricao": "EE PROFª MARIA GOMIDE SANTOS DE SOUZA"
+  },
+  {
+    "codigo": "2155",
+    "descricao": "EE NELSON FERREIRA DA SILVA"
+  },
+  {
+    "codigo": "2156",
+    "descricao": "EE ÉDERA IRENE P. DE O. CARDOSO"
+  },
+  {
+    "codigo": "2158",
+    "descricao": "EE DR RUI RODRIGUES DÓRIA"
+  },
+  {
+    "codigo": "2162",
+    "descricao": "EE ZILDA ALTIMIRA SOCI"
+  },
+  {
+    "codigo": "2163",
+    "descricao": "ANA HERONDINA SOARES SCHYCHOF"
+  },
+  {
+    "codigo": "2164",
+    "descricao": "EE ENGENHEIRO EDGAR MELLO MATOS DE CASTRO"
+  },
+  {
+    "codigo": "2168",
+    "descricao": "COORDENADORIA DE FORMAÇÃO EDUCACIONAL E ATENÇÃO ÀS DROGAS"
+  },
+  {
+    "codigo": "2170",
+    "descricao": "COORDENADORIA DE DIVERSIDADE ESCOLAR"
+  },
+  {
+    "codigo": "2172",
+    "descricao": "KODAK"
+  },
+  {
+    "codigo": "2178",
+    "descricao": "SETOR EXTINTO - CONSELHO MUNICIPAL DE SEGURANÇA (CMS)"
+  },
+  {
+    "codigo": "2181",
+    "descricao": "CONSELHO MUNICIPAL DE SEGURANÇA"
+  },
+  {
+    "codigo": "2184",
+    "descricao": "SE - DEB - DEF - COORD. PEDAG. - SERV. ORIENTAÇÃO EDUCACIONAL"
+  },
+  {
+    "codigo": "2186",
+    "descricao": "FUNDAÇÃO"
+  },
+  {
+    "codigo": "2188",
+    "descricao": "SECRETARIA MUNICIPAL DE PROMOÇÃO DA CIDADANIA"
+  },
+  {
+    "codigo": "2191",
+    "descricao": "SE - DEB - DEI - ESCOLAS MUNICIPAIS DE EDUCAÇÃO INFANTIL"
+  },
+  {
+    "codigo": "2192",
+    "descricao": "SECRETARIA DE REGULAÇÃO FUNDIÁRIA"
+  },
+  {
+    "codigo": "2196",
+    "descricao": "SUBPREFEITURA DE SÃO FRANCISCO XAVIER"
+  },
+  {
+    "codigo": "2198",
+    "descricao": "CONSELHO MUNICIPAL DOS DIREITOS DA CRIANÇA E DO ADOLESCENTE"
+  },
+  {
+    "codigo": "2200",
+    "descricao": "CONSELHO MUNICIPAL DE ATENÇÃO ÀS DROGAS"
+  },
+  {
+    "codigo": "2201",
+    "descricao": "CONSELHO MUNICIPAL DE ASSISTÊNCIA SOCIAL"
+  },
+  {
+    "codigo": "2202",
+    "descricao": "SECRETARIA DE PROMOÇÃO DA CIDADANIA"
+  },
+  {
+    "codigo": "2203",
+    "descricao": "CONSELHO MUNICIPAL DO IDOSO"
+  },
+  {
+    "codigo": "2204",
+    "descricao": "COORDENADORIA ESPECIAL DE POLÍTICAS PÚBLICAS PARA MULHERES"
+  },
+  {
+    "codigo": "2206",
+    "descricao": "PROGRAMA DECOLAR"
+  },
+  {
+    "codigo": "2212",
+    "descricao": "CONDEPHAAT"
+  },
+  {
+    "codigo": "2214",
+    "descricao": "INEC - INSTITUTO NACIONAL DE EDUCAÇÃO CETRO"
+  },
+  {
+    "codigo": "2216",
+    "descricao": "FÓRUM"
+  },
+  {
+    "codigo": "2222",
+    "descricao": "SECRETARIA DE RELAÇÕES DO TRABALHO"
+  },
+  {
+    "codigo": "2226",
+    "descricao": "ESCOLAS PARTICULARES"
+  },
+  {
+    "codigo": "2229",
+    "descricao": "SE - ADJ - ASSESSORIA AAE'S / FUNDEB"
+  },
+  {
+    "codigo": "2231",
+    "descricao": "SOCIEDADE BENEFICENTE SÃO MATEUS"
+  },
+  {
+    "codigo": "2234",
+    "descricao": "CRUZADA PAROQUIAL DE ASSISTÊNCIA"
+  },
+  {
+    "codigo": "2236",
+    "descricao": "INSTITUTO"
+  },
+  {
+    "codigo": "2237",
+    "descricao": "FEDERAÇÃO ESPÍRITA DO ESTADO DE SÃO PAULO"
+  },
+  {
+    "codigo": "2238",
+    "descricao": "OBRA SOCIAL ANÁLIA FRANCO"
+  },
+  {
+    "codigo": "2240",
+    "descricao": "EE PROFª ANA HERONDINA SOARES SCHYCHOF"
+  },
+  {
+    "codigo": "2242",
+    "descricao": "CASA LAURA VICUÑA"
+  },
+  {
+    "codigo": "2244",
+    "descricao": "EE ZILDA ALTIMIRA SOCI"
+  },
+  {
+    "codigo": "2246",
+    "descricao": "EE  ZILAH FERREIRA VIAGI PASSARELLI DE CAMPOS"
+  },
+  {
+    "codigo": "2248",
+    "descricao": "CENTRO EDUCACIONAL FONTE DA VIDA"
+  },
+  {
+    "codigo": "2251",
+    "descricao": "EMPRESA"
+  },
+  {
+    "codigo": "2264",
+    "descricao": "NEI PROF MARIA APARECIDA SAVASTANO SANCHEZ"
+  },
+  {
+    "codigo": "2268",
+    "descricao": "IMI FERNANDO TÃO DE AZEVEDO"
+  },
+  {
+    "codigo": "2270",
+    "descricao": "EMEF PROF MERCEDES MARIA PEROTTI"
+  },
+  {
+    "codigo": "2272",
+    "descricao": "DELEGACIA DA INFÂNCIA E JUVENTUDE"
+  },
+  {
+    "codigo": "2274",
+    "descricao": "DEFENSORIA PÚBLICA DO ESTADO DE SÃO PAULO"
+  },
+  {
+    "codigo": "2276",
+    "descricao": "CEFE - CENTRO DE FORMAÇÃO DO PROFESSOR - PROFª LENY BEVILACQUA"
+  },
+  {
+    "codigo": "2278",
+    "descricao": "DIVERSOS"
+  },
+  {
+    "codigo": "2280",
+    "descricao": "CAE - CONSELHO DE ALIMENTAÇÃO ESCOLAR"
+  },
+  {
+    "codigo": "2282",
+    "descricao": "SE - DEPARTAMENTO DE APOIO DE GESTÃO"
+  },
+  {
+    "codigo": "2284",
+    "descricao": "EMEI PROF SILVIA HELENA DE SOUZA"
+  },
+  {
+    "codigo": "2286",
+    "descricao": "EMEF DO TRABALHADOR"
+  },
+  {
+    "codigo": "2288",
+    "descricao": "SEC - DEPARTAMENTO DE GESTÃO DE PROJETOS ESPECIAIS (DGPE)"
+  },
+  {
+    "codigo": "2289",
+    "descricao": "SEC - DEPARTAMENTO DE ESPORTES EDUCACIONAIS (DEE)"
+  },
+  {
+    "codigo": "2290",
+    "descricao": "SEC - MUSEU INTERATIVO DE CIÊNCIAS (MIC)"
+  },
+  {
+    "codigo": "2292",
+    "descricao": "EMEI PROF DENISE PRATES FERNANDES ROCHA"
+  },
+  {
+    "codigo": "2293",
+    "descricao": "NEI BAIRRO DOS FREITAS"
+  },
+  {
+    "codigo": "2296",
+    "descricao": "EMEFI PROF MARIA ANTONIETA FERREIRA PAYAR"
+  },
+  {
+    "codigo": "2297",
+    "descricao": "EMEFI LUIZA MARIA CAVALCANTI GURATTI"
+  },
+  {
+    "codigo": "2298",
+    "descricao": "EMEFI EMMANUEL ANTONIO DOS SANTOS"
+  },
+  {
+    "codigo": "2299",
+    "descricao": "EMEFI PROF ALDA DE SOUZA ARAUJO"
+  },
+  {
+    "codigo": "2300",
+    "descricao": "EMEFI THEREZINHA DO MENINO JESUS SOARES DO NASCIMENTO"
+  },
+  {
+    "codigo": "2301",
+    "descricao": "EMEI PROF MARIA LEONOR DE CAMPOS MOTA MIRANDA"
+  },
+  {
+    "codigo": "2302",
+    "descricao": "EMEFI PROF AMINTAS ROCHA BRITO"
+  },
+  {
+    "codigo": "2303",
+    "descricao": "EMEFI MAURICIO ANISSE CURY"
+  },
+  {
+    "codigo": "2304",
+    "descricao": "EMEFI PROF EDEWALDO FREITAS GAIA SANT'ANNA"
+  },
+  {
+    "codigo": "2305",
+    "descricao": "UNIVERSIDADE ABERTA DO BRASIL (UAB)"
+  },
+  {
+    "codigo": "2306",
+    "descricao": "LABORATORIO DE EDUCAÇÃO DIGITAL E INTERATIVA (LEDI) EXTINTO 2017"
+  },
+  {
+    "codigo": "2307",
+    "descricao": "ESCOLA DE FORMAÇÃO DO EDUCADOR (EFE)"
+  },
+  {
+    "codigo": "2308",
+    "descricao": "CENTRO DE EDUCAÇÃO DE JOVENS E ADULTOS (CEJA)"
+  },
+  {
+    "codigo": "2309",
+    "descricao": "CENTRO DE FORMAÇÃO DO EDUCADOR (CEFE)"
+  },
+  {
+    "codigo": "2310",
+    "descricao": "CENTRO DE INOVAÇÃO E TECNOLOGIAS EDUCACIONAIS (CITE)"
+  },
+  {
+    "codigo": "2311",
+    "descricao": "EMEFI TEREZINHA ARAUJO - EMEF SANTA HERMINIA"
+  },
+  {
+    "codigo": "2312",
+    "descricao": "EMEI MARIA APRECIDA CANDELARIA BERNARDES OTTOBONI"
+  },
+  {
+    "codigo": "2313",
+    "descricao": "ESPAÇO DO SERVIDOR SEC - BIBLIOTECA DO PROFESSOR/ESPAÇO CULTURAL"
+  },
+  {
+    "codigo": "2314",
+    "descricao": "SERVIÇO SOCIAL/ASSISTENTES SOCIAIS DA SEC"
+  },
+  {
+    "codigo": "2316",
+    "descricao": "EMEI PROF SONIA MARA RAMOS"
+  },
+  {
+    "codigo": "2318",
+    "descricao": "NEI INTEGRAÇÃO"
+  },
+  {
+    "codigo": "2319",
+    "descricao": "NEI JARDIM AMERICANO"
+  },
+  {
+    "codigo": "2320",
+    "descricao": "NEI VILA SANTA CRUZ I E II"
+  },
+  {
+    "codigo": "2322",
+    "descricao": "ESCOLA DO TRABALHADOR (POSTERIORMENTE EMEF FLÁVIO BERLING)"
+  },
+  {
+    "codigo": "2325",
+    "descricao": "EMEI PROF MARIA CLARA FERNANDES CORREIA FRANÇA (FOI EMEI JD MORUM"
+  },
+  {
+    "codigo": "2327",
+    "descricao": "EMEI DIRCE SALONI PIRES (2022 - 2025) ANTIGA PADRE BONAFÉ"
+  },
+  {
+    "codigo": "9999",
+    "descricao": "SETOR NÃO DEFINIDO"
+  }
+]

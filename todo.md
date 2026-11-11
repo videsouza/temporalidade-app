@@ -57,3 +57,11 @@
 
 - [x] Remover linha "Reter até o ano:" da tela de resultado
 - [x] Agrupar níveis de Educação Infantil com mesma temporalidade
+
+## Nova etapa - Categorias e busca por setores
+
+- [x] Inspecionar a estrutura atual do app e a planilha `Setores.xlsx`.
+- [x] Reorganizar a navegação em duas categorias: Busca de Temporalidade e Busca de Setores.
+- [x] Implementar formatação automática do código numérico no campo de temporalidade.
+- [x] Processar e integrar os dados de setores com busca por setor e campos relacionados.
+- [x] Validar TypeScript, testes e o fluxo principal no preview.
