@@ -1,11 +1,14 @@
 import { Pressable, ScrollView, Text, View } from "react-native";
-import { Link } from "expo-router";
+import { useRouter } from "expo-router";
 
 import { ScreenContainer } from "@/components/screen-container";
 import { useColors } from "@/hooks/use-colors";
+import { HOME_CATEGORIES } from "@/lib/home-categories";
 
 export default function HomeScreen() {
   const colors = useColors();
+  const router = useRouter();
+  const [temporalidadeCategory, setoresCategory] = HOME_CATEGORIES;
 
   return (
     <ScreenContainer className="p-4 bg-background">
@@ -18,44 +21,54 @@ export default function HomeScreen() {
             </Text>
           </View>
 
-          <View className="gap-4">
-            <Link href="/temporalidade" asChild>
-              <Pressable
-                accessibilityRole="button"
-                style={({ pressed }) => ({
-                  backgroundColor: colors.primary,
-                  borderRadius: 16,
-                  padding: 20,
-                  opacity: pressed ? 0.82 : 1,
-                  transform: [{ scale: pressed ? 0.98 : 1 }],
-                })}
-              >
-                <Text className="text-2xl font-bold text-white">Busca de Temporalidade</Text>
-                <Text className="text-sm text-white mt-2">
-                  Consulte por código ou palavra-chave e veja série, tipo, temporalidade e observações.
-                </Text>
-              </Pressable>
-            </Link>
+          <View style={{ gap: 16 }}>
+            <Pressable
+              accessibilityRole="button"
+              accessibilityLabel="Abrir busca de temporalidade"
+              onPress={() => router.push(temporalidadeCategory.route)}
+              style={({ pressed }) => ({
+                backgroundColor: colors.primary,
+                borderColor: colors.primary,
+                borderWidth: 1,
+                borderRadius: 16,
+                padding: 20,
+                minHeight: 126,
+                justifyContent: "center",
+                opacity: pressed ? 0.82 : 1,
+                transform: [{ scale: pressed ? 0.98 : 1 }],
+              })}
+            >
+              <Text style={{ color: "#ffffff", fontSize: 22, lineHeight: 28, fontWeight: "700" }}>
+                {temporalidadeCategory.title}
+              </Text>
+              <Text style={{ color: "#ffffff", fontSize: 14, lineHeight: 21, marginTop: 8 }}>
+                {temporalidadeCategory.description}
+              </Text>
+            </Pressable>
 
-            <Link href="/setores" asChild>
-              <Pressable
-                accessibilityRole="button"
-                style={({ pressed }) => ({
-                  backgroundColor: colors.surface,
-                  borderColor: colors.primary,
-                  borderWidth: 1,
-                  borderRadius: 16,
-                  padding: 20,
-                  opacity: pressed ? 0.82 : 1,
-                  transform: [{ scale: pressed ? 0.98 : 1 }],
-                })}
-              >
-                <Text className="text-2xl font-bold text-primary">Busca de Setores</Text>
-                <Text className="text-sm text-muted mt-2">
-                  Localize setores por código ou por qualquer palavra do nome/descrição.
-                </Text>
-              </Pressable>
-            </Link>
+            <Pressable
+              accessibilityRole="button"
+              accessibilityLabel="Abrir busca de setores"
+              onPress={() => router.push(setoresCategory.route)}
+              style={({ pressed }) => ({
+                backgroundColor: colors.surface,
+                borderColor: colors.primary,
+                borderWidth: 1,
+                borderRadius: 16,
+                padding: 20,
+                minHeight: 126,
+                justifyContent: "center",
+                opacity: pressed ? 0.82 : 1,
+                transform: [{ scale: pressed ? 0.98 : 1 }],
+              })}
+            >
+              <Text style={{ color: colors.primary, fontSize: 22, lineHeight: 28, fontWeight: "700" }}>
+                {setoresCategory.title}
+              </Text>
+              <Text style={{ color: colors.muted, fontSize: 14, lineHeight: 21, marginTop: 8 }}>
+                {setoresCategory.description}
+              </Text>
+            </Pressable>
           </View>
 
           <View
