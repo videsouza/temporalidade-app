@@ -92,7 +92,12 @@ export default function SetoresScreen() {
             className="p-4 rounded-xl border mb-3"
             style={{ backgroundColor: colors.surface, borderColor: colors.border }}
           >
-            <Text className="text-xs font-semibold text-primary uppercase">Código {item.codigo}</Text>
+            <Text
+              className="text-xl font-bold text-primary"
+              accessibilityLabel={`Número do setor ${item.codigo}`}
+            >
+              {item.codigo}
+            </Text>
             <Text className="text-base font-semibold text-foreground mt-2 leading-relaxed">{item.descricao}</Text>
           </View>
         )}
