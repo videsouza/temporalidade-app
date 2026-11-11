@@ -105,7 +105,7 @@ export default function HomeScreen() {
               accessibilityLabel="Abrir busca de temporalidade"
               onPress={() => router.push(temporalidadeCategory.route)}
               style={({ pressed }) => ({
-                backgroundColor: colors.primary,
+                backgroundColor: colors.surface,
                 borderColor: colors.primary,
                 borderWidth: 1,
                 borderRadius: 16,
@@ -117,12 +117,12 @@ export default function HomeScreen() {
               })}
             >
               <View style={{ flexDirection: "row", alignItems: "center", gap: 12 }}>
-                <MaterialIcons name="description" size={42} color="#ffffff" />
-                <Text style={{ color: "#ffffff", fontSize: 22, lineHeight: 28, fontWeight: "700", flex: 1 }}>
+                <MaterialIcons name="description" size={42} color={colors.primary} />
+                <Text style={{ color: colors.primary, fontSize: 22, lineHeight: 28, fontWeight: "700", flex: 1 }}>
                   {temporalidadeCategory.title}
                 </Text>
               </View>
-              <Text style={{ color: "#ffffff", fontSize: 14, lineHeight: 21, marginTop: 8 }}>
+              <Text style={{ color: colors.muted, fontSize: 14, lineHeight: 21, marginTop: 8 }}>
                 {temporalidadeCategory.description}
               </Text>
             </Pressable>
