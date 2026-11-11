@@ -1,5 +1,6 @@
 import { Pressable, ScrollView, Text, View } from "react-native";
 import { useRouter } from "expo-router";
+import MaterialIcons from "@expo/vector-icons/MaterialIcons";
 
 import { ScreenContainer } from "@/components/screen-container";
 import { useColors } from "@/hooks/use-colors";
@@ -38,9 +39,12 @@ export default function HomeScreen() {
                 transform: [{ scale: pressed ? 0.98 : 1 }],
               })}
             >
-              <Text style={{ color: "#ffffff", fontSize: 22, lineHeight: 28, fontWeight: "700" }}>
-                {temporalidadeCategory.title}
-              </Text>
+              <View style={{ flexDirection: "row", alignItems: "center", gap: 12 }}>
+                <MaterialIcons name="description" size={42} color="#ffffff" />
+                <Text style={{ color: "#ffffff", fontSize: 22, lineHeight: 28, fontWeight: "700", flex: 1 }}>
+                  {temporalidadeCategory.title}
+                </Text>
+              </View>
               <Text style={{ color: "#ffffff", fontSize: 14, lineHeight: 21, marginTop: 8 }}>
                 {temporalidadeCategory.description}
               </Text>
@@ -62,9 +66,12 @@ export default function HomeScreen() {
                 transform: [{ scale: pressed ? 0.98 : 1 }],
               })}
             >
-              <Text style={{ color: colors.primary, fontSize: 22, lineHeight: 28, fontWeight: "700" }}>
-                {setoresCategory.title}
-              </Text>
+              <View style={{ flexDirection: "row", alignItems: "center", gap: 12 }}>
+                <MaterialIcons name="business" size={42} color={colors.primary} />
+                <Text style={{ color: colors.primary, fontSize: 22, lineHeight: 28, fontWeight: "700", flex: 1 }}>
+                  {setoresCategory.title}
+                </Text>
+              </View>
               <Text style={{ color: colors.muted, fontSize: 14, lineHeight: 21, marginTop: 8 }}>
                 {setoresCategory.description}
               </Text>

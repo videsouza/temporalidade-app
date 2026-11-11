@@ -1,6 +1,7 @@
 import { ScrollView, Text, View, Pressable, Linking } from "react-native";
 import { ScreenContainer } from "@/components/screen-container";
 import { useColors } from "@/hooks/use-colors";
+import { APP_DEVELOPER } from "@/lib/app-info";
 
 export default function AboutScreen() {
   const colors = useColors();
@@ -31,6 +32,9 @@ export default function AboutScreen() {
           >
             <Text className="text-base leading-relaxed text-foreground">
               App Temporalidade - Desenvolvido pelo Setor de Arquivo da Secretaria de Educação da Prefeitura Municipal de São José dos Campos.
+            </Text>
+            <Text className="text-sm font-semibold text-primary">
+              Desenvolvido por {APP_DEVELOPER}
             </Text>
           </View>
 
