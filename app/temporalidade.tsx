@@ -150,11 +150,22 @@ export default function HomeScreen() {
       <ScrollView contentContainerStyle={{ flexGrow: 1 }} keyboardShouldPersistTaps="handled">
         <View className="gap-6">
           {/* Header */}
-          <View className="items-center gap-2 mt-4">
-            <Text className="text-3xl font-bold text-foreground">Temporalidade</Text>
-            <Text className="text-sm text-muted text-center">
-              Consulte a temporalidade de documentos
-            </Text>
+          <View className="gap-3 mt-4">
+            <Link href="/" asChild>
+              <Pressable
+                accessibilityRole="button"
+                accessibilityLabel="Voltar ao menu inicial"
+                style={({ pressed }) => ({ opacity: pressed ? 0.55 : 1 })}
+              >
+                <Text className="text-sm font-semibold text-primary">⌂  Menu inicial</Text>
+              </Pressable>
+            </Link>
+            <View className="items-center gap-2">
+              <Text className="text-3xl font-bold text-foreground">Temporalidade</Text>
+              <Text className="text-sm text-muted text-center">
+                Consulte a temporalidade de documentos
+              </Text>
+            </View>
           </View>
 
           {/* Search Mode Toggle */}

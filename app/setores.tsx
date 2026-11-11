@@ -38,16 +38,16 @@ export default function SetoresScreen() {
         contentContainerStyle={{ padding: 16, paddingBottom: 32 }}
         ListHeaderComponent={
           <View className="gap-4 mb-5">
-            <View className="flex-row items-center gap-3">
-              <Link href="/" asChild>
-                <Pressable
-                  accessibilityRole="button"
-                  accessibilityLabel="Voltar para categorias"
-                  style={({ pressed }) => ({ opacity: pressed ? 0.55 : 1 })}
-                >
-                  <Text className="text-2xl text-primary">‹</Text>
-                </Pressable>
-              </Link>
+            <Link href="/" asChild>
+              <Pressable
+                accessibilityRole="button"
+                accessibilityLabel="Voltar ao menu inicial"
+                style={({ pressed }) => ({ opacity: pressed ? 0.55 : 1 })}
+              >
+                <Text className="text-sm font-semibold text-primary">⌂  Menu inicial</Text>
+              </Pressable>
+            </Link>
+            <View>
               <View className="flex-1">
                 <Text className="text-3xl font-bold text-foreground">Busca de Setores</Text>
                 <Text className="text-sm text-muted">{(setores as Setor[]).length} setores cadastrados</Text>

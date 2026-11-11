@@ -1,5 +1,5 @@
 import { ScrollView, Text, View, Pressable } from "react-native";
-import { useRouter } from "expo-router";
+import { Link, useRouter } from "expo-router";
 import { useState } from "react";
 import { ScreenContainer } from "@/components/screen-container";
 import { useColors } from "@/hooks/use-colors";
@@ -115,6 +115,15 @@ export default function DiariosDeClasseScreen() {
         <View className="gap-6 py-4">
           {/* Header */}
           <View className="gap-2">
+            <Link href="/" asChild>
+              <Pressable
+                accessibilityRole="button"
+                accessibilityLabel="Voltar ao menu inicial"
+                style={({ pressed }) => ({ opacity: pressed ? 0.55 : 1 })}
+              >
+                <Text className="text-sm font-semibold text-primary">⌂  Menu inicial</Text>
+              </Pressable>
+            </Link>
             <Text className="text-3xl font-bold text-foreground">Diários de Classe</Text>
             <Text className="text-sm text-muted">Código: 5.3.02.01.12</Text>
             <Text className="text-xs text-muted mt-2">

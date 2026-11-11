@@ -1,4 +1,5 @@
 import { ScrollView, Text, View, Pressable, Linking } from "react-native";
+import { Link } from "expo-router";
 import { ScreenContainer } from "@/components/screen-container";
 import { useColors } from "@/hooks/use-colors";
 import { APP_DEVELOPER } from "@/lib/app-info";
@@ -14,6 +15,16 @@ export default function AboutScreen() {
     <ScreenContainer className="p-4 bg-background">
       <ScrollView contentContainerStyle={{ flexGrow: 1 }} keyboardShouldPersistTaps="handled">
         <View className="gap-8 py-8">
+          <Link href="/" asChild>
+            <Pressable
+              accessibilityRole="button"
+              accessibilityLabel="Voltar ao menu inicial"
+              style={({ pressed }) => ({ opacity: pressed ? 0.55 : 1 })}
+            >
+              <Text className="text-sm font-semibold text-primary">⌂  Menu inicial</Text>
+            </Pressable>
+          </Link>
+
           {/* Logo/Icon */}
           <View className="items-center gap-4">
             <Text className="text-6xl">📋</Text>
