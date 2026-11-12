@@ -245,7 +245,8 @@ export default function HomeScreen() {
                 value={searchQuery}
                 onChangeText={handleSearch}
                 keyboardType={searchMode === "code" ? "number-pad" : "default"}
-                maxLength={searchMode === "code" ? 11 : undefined}
+                // O formato x.x.xx.xx.xx possui 8 números e 4 pontos.
+                maxLength={searchMode === "code" ? 12 : undefined}
                 className="flex-1 text-foreground text-base"
                 style={{
                   color: colors.foreground,
