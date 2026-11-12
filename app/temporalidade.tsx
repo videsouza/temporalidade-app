@@ -3,7 +3,6 @@ import { useState, useEffect, useMemo } from "react";
 import { Link, useLocalSearchParams } from "expo-router";
 import MaterialIcons from "@expo/vector-icons/MaterialIcons";
 import { ScreenContainer } from "@/components/screen-container";
-import { TopMenu } from "@/components/top-menu";
 import { useColors } from "@/hooks/use-colors";
 import { useSearchHistory } from "@/hooks/use-search-history";
 import { cn } from "@/lib/utils";
@@ -149,7 +148,6 @@ export default function HomeScreen() {
 
   return (
     <ScreenContainer className="p-4 bg-background">
-      <TopMenu />
       <ScrollView contentContainerStyle={{ flexGrow: 1 }} keyboardShouldPersistTaps="handled">
         <View className="gap-6">
           {/* Header */}
@@ -215,38 +213,6 @@ export default function HomeScreen() {
               </Pressable>
             </View>
 
-            {/* Special Document Link */}
-            <Link href="/diarios-de-classe" asChild>
-              <Pressable
-                style={({ pressed }) => [
-                  {
-                    backgroundColor: colors.primary + "20",
-                    opacity: pressed ? 0.8 : 1,
-                  },
-                ]}
-                className="py-3 px-4 rounded-lg border"
-              >
-                <Text className="text-center font-semibold text-primary">📚 Diários de Classe</Text>
-              </Pressable>
-            </Link>
-
-            <Link href="/setores" asChild>
-              <Pressable
-                accessibilityRole="button"
-                accessibilityLabel="Ir para Busca de Setores"
-                style={({ pressed }) => ({
-                  backgroundColor: colors.primary + "10",
-                  borderColor: colors.primary + "55",
-                  borderWidth: 1,
-                  borderRadius: 8,
-                  paddingVertical: 12,
-                  paddingHorizontal: 16,
-                  opacity: pressed ? 0.8 : 1,
-                })}
-              >
-                <Text className="text-center text-base font-semibold text-primary">🏢 Busca de Setores</Text>
-              </Pressable>
-            </Link>
           </View>
 
           {/* Search Bar */}

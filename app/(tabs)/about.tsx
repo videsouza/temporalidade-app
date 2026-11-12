@@ -1,7 +1,6 @@
 import { ScrollView, Text, View, Pressable, Linking } from "react-native";
 import { Link } from "expo-router";
 import { ScreenContainer } from "@/components/screen-container";
-import { TopMenu } from "@/components/top-menu";
 import { useColors } from "@/hooks/use-colors";
 import { APP_DEVELOPER } from "@/lib/app-info";
 
@@ -14,7 +13,6 @@ export default function AboutScreen() {
 
   return (
     <ScreenContainer className="p-4 bg-background">
-      <TopMenu />
       <ScrollView contentContainerStyle={{ flexGrow: 1 }} keyboardShouldPersistTaps="handled">
         <View className="gap-8 py-8">
           <Link href="/" asChild>

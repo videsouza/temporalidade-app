@@ -4,7 +4,6 @@ import MaterialIcons from "@expo/vector-icons/MaterialIcons";
 import { useMemo, useState } from "react";
 
 import { ScreenContainer } from "@/components/screen-container";
-import { TopMenu } from "@/components/top-menu";
 import { useColors } from "@/hooks/use-colors";
 import { normalizeSearchText } from "@/lib/search-utils";
 import setores from "@/setores.json";
@@ -33,7 +32,6 @@ export default function SetoresScreen() {
 
   return (
     <ScreenContainer className="bg-background">
-      <TopMenu />
       <FlatList
         data={results}
         keyExtractor={(item) => item.codigo}
@@ -56,24 +54,6 @@ export default function SetoresScreen() {
                 <Text className="text-sm text-muted">{(setores as Setor[]).length} setores cadastrados</Text>
               </View>
             </View>
-
-            <Link href="/temporalidade" asChild>
-              <Pressable
-                accessibilityRole="button"
-                accessibilityLabel="Ir para Busca de Temporalidade"
-                style={({ pressed }) => ({
-                  backgroundColor: colors.primary + "10",
-                  borderColor: colors.primary + "55",
-                  borderWidth: 1,
-                  borderRadius: 8,
-                  paddingVertical: 12,
-                  paddingHorizontal: 16,
-                  opacity: pressed ? 0.8 : 1,
-                })}
-              >
-                <Text className="text-center text-base font-semibold text-primary">📄 Busca de Temporalidade</Text>
-              </Pressable>
-            </Link>
 
             <View
               className="flex-row items-center gap-2 px-4 py-3 rounded-lg border bg-surface"
