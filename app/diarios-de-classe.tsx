@@ -2,6 +2,7 @@ import { ScrollView, Text, View, Pressable } from "react-native";
 import { Link, useRouter } from "expo-router";
 import { useState } from "react";
 import { ScreenContainer } from "@/components/screen-container";
+import { TopMenu } from "@/components/top-menu";
 import { useColors } from "@/hooks/use-colors";
 import {
   EducationType,
@@ -111,6 +112,7 @@ export default function DiariosDeClasseScreen() {
 
   return (
     <ScreenContainer className="p-4 bg-background">
+      <TopMenu />
       <ScrollView contentContainerStyle={{ flexGrow: 1 }} keyboardShouldPersistTaps="handled">
         <View className="gap-6 py-4">
           {/* Header */}

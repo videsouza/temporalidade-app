@@ -4,6 +4,7 @@ import MaterialIcons from "@expo/vector-icons/MaterialIcons";
 import { useMemo, useState } from "react";
 
 import { ScreenContainer } from "@/components/screen-container";
+import { TopMenu } from "@/components/top-menu";
 import { useColors } from "@/hooks/use-colors";
 import { normalizeSearchText } from "@/lib/search-utils";
 import setores from "@/setores.json";
@@ -32,6 +33,7 @@ export default function SetoresScreen() {
 
   return (
     <ScreenContainer className="bg-background">
+      <TopMenu />
       <FlatList
         data={results}
         keyExtractor={(item) => item.codigo}

@@ -3,6 +3,7 @@ import { useState, useEffect, useMemo } from "react";
 import { Link, useLocalSearchParams } from "expo-router";
 import MaterialIcons from "@expo/vector-icons/MaterialIcons";
 import { ScreenContainer } from "@/components/screen-container";
+import { TopMenu } from "@/components/top-menu";
 import { useColors } from "@/hooks/use-colors";
 import { useSearchHistory } from "@/hooks/use-search-history";
 import { cn } from "@/lib/utils";
@@ -148,6 +149,7 @@ export default function HomeScreen() {
 
   return (
     <ScreenContainer className="p-4 bg-background">
+      <TopMenu />
       <ScrollView contentContainerStyle={{ flexGrow: 1 }} keyboardShouldPersistTaps="handled">
         <View className="gap-6">
           {/* Header */}
