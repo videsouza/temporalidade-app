@@ -4,7 +4,6 @@ import MaterialIcons from "@expo/vector-icons/MaterialIcons";
 import { useMemo, useState } from "react";
 
 import { ScreenContainer } from "@/components/screen-container";
-import { TopMenu } from "@/components/top-menu";
 import { useColors } from "@/hooks/use-colors";
 import { HOME_CATEGORIES } from "@/lib/home-categories";
 import { getQuickSearchCounts } from "@/lib/quick-search";
@@ -23,7 +22,6 @@ export default function HomeScreen() {
 
   return (
     <ScreenContainer className="p-4 bg-background">
-      <TopMenu />
       <ScrollView contentContainerStyle={{ flexGrow: 1 }}>
         <View className="gap-6 mt-4">
           <View className="items-center gap-2">
