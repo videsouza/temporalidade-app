@@ -121,7 +121,7 @@ export default function DiariosDeClasseScreen() {
                 accessibilityLabel="Voltar ao menu inicial"
                 style={({ pressed }) => ({ opacity: pressed ? 0.55 : 1 })}
               >
-                <Text className="text-sm font-semibold text-primary">⌂  Menu inicial</Text>
+                <Text className="text-base font-semibold text-primary">⌂  Menu inicial</Text>
               </Pressable>
             </Link>
             <Text className="text-3xl font-bold text-foreground">Diários de Classe</Text>

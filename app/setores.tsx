@@ -45,7 +45,7 @@ export default function SetoresScreen() {
                 accessibilityLabel="Voltar ao menu inicial"
                 style={({ pressed }) => ({ opacity: pressed ? 0.55 : 1 })}
               >
-                <Text className="text-sm font-semibold text-primary">⌂  Menu inicial</Text>
+                <Text className="text-base font-semibold text-primary">⌂  Menu inicial</Text>
               </Pressable>
             </Link>
             <View>
@@ -54,6 +54,24 @@ export default function SetoresScreen() {
                 <Text className="text-sm text-muted">{(setores as Setor[]).length} setores cadastrados</Text>
               </View>
             </View>
+
+            <Link href="/temporalidade" asChild>
+              <Pressable
+                accessibilityRole="button"
+                accessibilityLabel="Ir para Busca de Temporalidade"
+                style={({ pressed }) => ({
+                  backgroundColor: colors.primary + "10",
+                  borderColor: colors.primary + "55",
+                  borderWidth: 1,
+                  borderRadius: 8,
+                  paddingVertical: 12,
+                  paddingHorizontal: 16,
+                  opacity: pressed ? 0.8 : 1,
+                })}
+              >
+                <Text className="text-center text-base font-semibold text-primary">📄 Busca de Temporalidade</Text>
+              </Pressable>
+            </Link>
 
             <View
               className="flex-row items-center gap-2 px-4 py-3 rounded-lg border bg-surface"

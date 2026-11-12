@@ -21,7 +21,7 @@ export default function AboutScreen() {
               accessibilityLabel="Voltar ao menu inicial"
               style={({ pressed }) => ({ opacity: pressed ? 0.55 : 1 })}
             >
-              <Text className="text-sm font-semibold text-primary">⌂  Menu inicial</Text>
+              <Text className="text-base font-semibold text-primary">⌂  Menu inicial</Text>
             </Pressable>
           </Link>
 

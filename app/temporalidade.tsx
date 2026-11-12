@@ -158,7 +158,7 @@ export default function HomeScreen() {
                 accessibilityLabel="Voltar ao menu inicial"
                 style={({ pressed }) => ({ opacity: pressed ? 0.55 : 1 })}
               >
-                <Text className="text-sm font-semibold text-primary">⌂  Menu inicial</Text>
+                <Text className="text-base font-semibold text-primary">⌂  Menu inicial</Text>
               </Pressable>
             </Link>
             <View className="items-center gap-2">
@@ -225,6 +225,24 @@ export default function HomeScreen() {
                 className="py-3 px-4 rounded-lg border"
               >
                 <Text className="text-center font-semibold text-primary">📚 Diários de Classe</Text>
+              </Pressable>
+            </Link>
+
+            <Link href="/setores" asChild>
+              <Pressable
+                accessibilityRole="button"
+                accessibilityLabel="Ir para Busca de Setores"
+                style={({ pressed }) => ({
+                  backgroundColor: colors.primary + "10",
+                  borderColor: colors.primary + "55",
+                  borderWidth: 1,
+                  borderRadius: 8,
+                  paddingVertical: 12,
+                  paddingHorizontal: 16,
+                  opacity: pressed ? 0.8 : 1,
+                })}
+              >
+                <Text className="text-center text-base font-semibold text-primary">🏢 Busca de Setores</Text>
               </Pressable>
             </Link>
           </View>
