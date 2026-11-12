@@ -1,6 +1,7 @@
 import { ScrollView, Text, View, TextInput, Pressable, FlatList, ActivityIndicator, Switch } from "react-native";
 import { useState, useEffect, useMemo } from "react";
 import { Link, useLocalSearchParams } from "expo-router";
+import MaterialIcons from "@expo/vector-icons/MaterialIcons";
 import { ScreenContainer } from "@/components/screen-container";
 import { useColors } from "@/hooks/use-colors";
 import { useSearchHistory } from "@/hooks/use-search-history";
@@ -255,13 +256,21 @@ export default function HomeScreen() {
               {searchQuery.length > 0 && (
                 <Pressable
                   onPress={handleClear}
-                  style={({ pressed }) => [
-                    {
-                      opacity: pressed ? 0.6 : 1,
-                    },
-                  ]}
+                  accessibilityRole="button"
+                  accessibilityLabel="Limpar busca"
+                  style={({ pressed }) => ({
+                    flexDirection: "row",
+                    alignItems: "center",
+                    gap: 4,
+                    paddingHorizontal: 8,
+                    paddingVertical: 6,
+                    borderRadius: 8,
+                    backgroundColor: colors.primary + "15",
+                    opacity: pressed ? 0.6 : 1,
+                  })}
                 >
-                  <Text className="text-lg text-muted">✕</Text>
+                  <MaterialIcons name="clear" size={16} color={colors.primary} />
+                  <Text className="text-xs font-semibold text-primary">Limpar</Text>
                 </Pressable>
               )}
             </View>

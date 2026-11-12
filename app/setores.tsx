@@ -1,5 +1,6 @@
 import { FlatList, Pressable, Text, TextInput, View } from "react-native";
 import { Link, useLocalSearchParams } from "expo-router";
+import MaterialIcons from "@expo/vector-icons/MaterialIcons";
 import { useMemo, useState } from "react";
 
 import { ScreenContainer } from "@/components/screen-container";
@@ -69,8 +70,23 @@ export default function SetoresScreen() {
                 returnKeyType="search"
               />
               {!!query && (
-                <Pressable onPress={clearSearch} style={({ pressed }) => ({ opacity: pressed ? 0.55 : 1 })}>
-                  <Text className="text-lg text-muted">✕</Text>
+                <Pressable
+                  onPress={clearSearch}
+                  accessibilityRole="button"
+                  accessibilityLabel="Limpar busca"
+                  style={({ pressed }) => ({
+                    flexDirection: "row",
+                    alignItems: "center",
+                    gap: 4,
+                    paddingHorizontal: 8,
+                    paddingVertical: 6,
+                    borderRadius: 8,
+                    backgroundColor: colors.primary + "15",
+                    opacity: pressed ? 0.6 : 1,
+                  })}
+                >
+                  <MaterialIcons name="clear" size={16} color={colors.primary} />
+                  <Text className="text-xs font-semibold text-primary">Limpar</Text>
                 </Pressable>
               )}
             </View>
